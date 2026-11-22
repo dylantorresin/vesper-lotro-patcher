@@ -8,7 +8,12 @@ Tutte le novità delle revisioni della traduzione e del Patcher, dalla più rece
 
 ## Traduzione Italiana (`LOTRO U50.2`)
 
-### `U50.2 — Revisione r3` *(22 novembre 2026 — versione attuale)*
+### `U50.2 — Revisione r4` *(22 novembre 2026 — versione attuale)*
+- **Schermata di selezione personaggio / Lobby**: accorciato il pulsante principale di ingresso su 2 righe (***La Terra\ndi Mezzo***), compattato ***Gioco dei Mostri*** / *Avvia Mostri* ed eliminato il taglio vicino all'Anello; rifinite anche le voci di personalizzazione aspetto (*Barba e Baffi*, *Corporatura*, *Acconciatura*).
+- **Opzioni → Grafica Avanzata & Interfaccia**: sostituiti termini tecnici poco naturali e uniformati i relativi tooltip (*Distanza vegetazione*, *Densità vegetazione*, *Colore vegetazione terreno*, *Texture*, *Filtraggio Texture*, *Oggetti distanti*, *Ambiente*), risolti i pulsanti troncati (*Predef. Avanzate*, *Tutti*) e corretto il tooltip dell'equipaggiamento (*Apri/chiudi equipaggiamento*).
+- **Toponimi, titoli ed emote**: uniformata in oltre 150 missioni e dialoghi delle Terre Solitarie ***La Locanda Abbandonata*** (*The Forsaken Inn*, eliminando sviste in cui compariva il *Puledro Impennato* o concordanze errate), corretto il titolo ***Guardaconfini della Contea*** e sistemata la concordanza grammaticale dell'emote */hug* (`Ti abbracci. Non ti senti meglio?`).
+
+### `U50.2 — Revisione r3` *(22 novembre 2026)*
 - **Interfaccia compatta anti-troncamento**: accorciate quasi 600 voci tra pulsanti, schede, opzioni e statistiche per evitare testi tagliati o sovrapposti in-game *(es. `Pet` → `Famiglio` nell'interfaccia, `Mailbox` → `Posta`, `Escrow` → `Deposito`, `Restore defaults?` → `Ripristina predefiniti?`, `Join Request` → `Richiesta`, `Show Vitals` → `Mostra Vitali`)*.
 - **Comandi chat sui server EU**: ripristinati in inglese i comandi slash e alias di chat (`/lff`, `/say`, `/who`, `/inspect`, `/ui`, ecc.) così continuano a funzionare regolarmente, mantenendo in italiano i messaggi di stato a schermo.
 - **Rifiniture di combattimento e oggetti**: sistemati *Forgia Oscura* (`Fell-wrought`), *Forgia Orchesca* (`Orc-craft`), *Potere nel Tempo* (`A PoT`) e ripulita una nota residua su un titolo di oggetto.
@@ -26,24 +31,21 @@ Tutte le novità delle revisioni della traduzione e del Patcher, dalla più rece
 
 ## Vesper LotRO Patcher (`Windows x64`)
 
-### `v1.0.0` *(22 novembre 2026 — versione attuale)*
+### `v1.1.0` *(22 novembre 2026 — versione attuale)*
+- **Stato aggiornamenti traduzione chiaro**: controllo automatico silenzioso all'avvio; quando hai già installato l'ultima traduzione disponibile mostra **"Hai già l'ultima versione disponibile"** e disabilita il pulsante di aggiornamento ridondante, mentre evidenzia subito quando esce una nuova revisione.
+- **Avviso nuova versione del Patcher**: quando viene pubblicata una nuova versione di *Vesper LotRO Patcher* su GitHub Releases, mostra un banner dedicato in cima all'app con il pulsante **Scarica la nuova versione**.
+- **Interfaccia più pulita e avanzamento download**: rimossi i pulsanti doppi di *Discord* e *PayPal* dalla barra superiore (mantenendoli nella barra inferiore), aggiunto avanzamento percentuale/MB durante lo scaricamento della traduzione e durata operazione arrotondata in modo leggibile.
+
+### `v1.0.0` *(22 novembre 2026)*
 - Prima release pubblica dell'installer Windows (`x64`).
 - Rilevamento automatico della cartella di LOTRO, download e applicazione della traduzione in 1 clic, backup locale per tornare in inglese originale in qualsiasi momento e protezione automatica per i file tradotti manualmente senza backup inglese.
 
 ---
 
-## In lavorazione per il prossimo aggiornamento (`U50.2 r4`)
+## In lavorazione per il prossimo aggiornamento (`U50.2 r5`)
 
-Segnalazioni già raccolte dai test in-game e pronte per il prossimo rilascio cumulativo:
+Raccolta continua delle segnalazioni in-game per i prossimi aggiornamenti cumulativi:
 
-- **Lobby / Selezione personaggio**:
-  - Accorciamento dei pulsanti ***Entra nella Terra di Mezzo*** → ***Entra in Gioco*** e *Gioco dei Mostri* per evitare il taglio vicino all'Anello.
-- **Opzioni → Grafica Avanzata & Interfaccia**:
-  - *Distanza fronzoli* / *Densità fronzoli* / *Colore Terreno Minuto* → ***Distanza vegetazione*** / ***Densità vegetazione*** / ***Colore vegetazione terreno*** (aggiornati anche nei relativi tooltip);
-  - *Tessitura* / *Filtraggio Trame* → ***Texture*** / ***Filtraggio Texture*** (uniformati anche nei tooltip e nelle impostazioni avatar);
-  - *Impostori Distanti* → ***Oggetti distanti***;
-  - *Scenografia* → ***Ambiente***;
-  - Pulsanti troncati nelle Opzioni: *Mostra T...* → ***Tutti*** e *Predefinito Avan...* → ***Predef. Avanzate***;
-  - Tooltip interfaccia personaggio: *Apri/chiudi carta dei vestiti* → ***Apri/chiudi equipaggiamento***.
+- Nessuna voce in sospeso al momento: le segnalazioni aperte finora sono state tutte integrate nella revisione **`U50.2 r4`**.
 
 Hai notato un errore di traduzione, un testo tagliato o un nome strano in gioco? Segnalacelo sul **[Canale Discord LOTRO Italia](https://discord.gg/KpAYHHsrzV)** o nella sezione **[Issues](https://github.com/dylantorresin/vesper-lotro-patcher/issues)**: lo aggiungeremo alla coda del prossimo aggiornamento!

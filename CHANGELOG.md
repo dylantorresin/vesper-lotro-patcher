@@ -31,7 +31,14 @@ Tutte le novità delle revisioni della traduzione e del Patcher, dalla più rece
 
 ## Vesper LotRO Patcher (`Windows x64`)
 
-### `v1.1.0` *(22 novembre 2026 — versione attuale)*
+### `v1.2.0` *(22 novembre 2026 — versione attuale)*
+- **Area Traduttori a Contesto (`Vesper Translate Hub`) potenziata**:
+  - **Vista contesto file (`0x...`)**: selezionando una stringa vengono mostrati tutti i testi fratelli dello stesso file (es. intera missione, PNG o finestra dell'interfaccia) con passaggio rapido tra globale e modifica puntuale (`file_id:fragment_id`).
+  - **Ricerca avanzata & paginazione**: aggiunti filtri per **Categoria**, **Stato**, codice file (`0x...`) e navigazione tra le pagine dei risultati.
+  - **Revisione più chiara**: confronto diretto *Prima (TM attuale) → Dopo (Bozza proposta)*, statistiche leggibili a schede, nota del revisore e opzione controllata per i ritorni a capo UI (`\n`).
+- Include tutti i miglioramenti della `v1.1.0` per i giocatori (aggiornamento 1 clic, stato *"Hai già l'ultima versione disponibile"* e avviso nuove versioni).
+
+### `v1.1.0` *(22 novembre 2026)*
 - **Stato aggiornamenti traduzione chiaro**: controllo automatico silenzioso all'avvio; quando hai già installato l'ultima traduzione disponibile mostra **"Hai già l'ultima versione disponibile"** e disabilita il pulsante di aggiornamento ridondante, mentre evidenzia subito quando esce una nuova revisione.
 - **Avviso nuova versione del Patcher**: quando viene pubblicata una nuova versione di *Vesper LotRO Patcher* su GitHub Releases, mostra un banner dedicato in cima all'app con il pulsante **Scarica la nuova versione**.
 - **Interfaccia più pulita e avanzamento download**: rimossi i pulsanti doppi di *Discord* e *PayPal* dalla barra superiore (mantenendoli nella barra inferiore), aggiunto avanzamento percentuale/MB durante lo scaricamento della traduzione e durata operazione arrotondata in modo leggibile.

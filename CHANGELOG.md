@@ -31,7 +31,11 @@ Tutte le novità delle revisioni della traduzione e del Patcher, dalla più rece
 
 ## Vesper LotRO Patcher (`Windows x64`)
 
-### `v1.2.0` *(22 novembre 2026 — versione attuale)*
+### `v1.3.0` *(22 novembre 2026 — versione attuale)*
+- **Avanzamento in tempo reale (`0% → 100%`) e barra di progresso**: durante l'installazione, l'aggiornamento e il ripristino in inglese originale ora vedi esattamente a che punto si trova l'operazione passo dopo passo, inclusa la creazione del backup iniziale e il salvataggio del file di gioco.
+- **Riepilogo chiaro dei contenuti tradotti**: nella schermata **Giocatore** trovi la checklist di stato con ciò che è installato o da aggiornare (*Testi di gioco* attivi; moduli opzionali *Mappe in italiano* e *Video in italiano* predisposti in arrivo).
+
+### `v1.2.0` *(22 novembre 2026)*
 - **Area Traduttori a Contesto (`Vesper Translate Hub`) potenziata**:
   - **Vista contesto file (`0x...`)**: selezionando una stringa vengono mostrati tutti i testi fratelli dello stesso file (es. intera missione, PNG o finestra dell'interfaccia) con passaggio rapido tra globale e modifica puntuale (`file_id:fragment_id`).
   - **Ricerca avanzata & paginazione**: aggiunti filtri per **Categoria**, **Stato**, codice file (`0x...`) e navigazione tra le pagine dei risultati.

@@ -2,7 +2,7 @@
 
 Installa e aggiorna la traduzione italiana non ufficiale di **The Lord of the Rings Online (LOTRO)** in 1 clic (**canone Alliata/Principe**).
 
-> 📜 **[Changelog & Segnalazioni in lavorazione (CHANGELOG.md)](CHANGELOG.md)** — cronologia delle revisioni (`r1` → `r2` → `r3`) e lista dei fix in coda per il prossimo aggiornamento.
+> 📜 **[Changelog Traduzione (`CHANGELOG-TRADUZIONE.md`)](CHANGELOG-TRADUZIONE.md)** · 🛠️ **[Changelog Patcher (`CHANGELOG-PATCHER.md`)](CHANGELOG-PATCHER.md)** — revisioni dei testi in gioco (`U50.2 r1` → `r4`), segnalazioni aperte e novità dell'app Windows.
 
 ---
 

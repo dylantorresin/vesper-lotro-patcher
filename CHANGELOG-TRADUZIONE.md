@@ -9,7 +9,11 @@ Tutte le novità e le revisioni dei testi in gioco, dalla più recente alla prim
 
 ## Revisioni rilasciate
 
-### `U50.2 — Revisione r4` *(22 novembre 2026 — versione attuale)*
+### `U50.2 — Revisione r5` *(23 novembre 2026 — versione attuale)*
+- **Titoli personaggio Maschile/Femminile (`1.555` titoli)**: introdotta la distinzione dinamica in base al genere del personaggio su oltre millecinquecento titoli in gioco *(es. Sterminatore/Sterminatrice, Esploratore/Esploratrice, Sceriffo Onorario/Sceriffa Onoraria)*.
+- **Oltre `1.690` correzioni e miglioramenti su missioni, oggetti e abilità**: eliminati refusi residui e frasi lasciate in inglese, sistemata la scorrevolezza delle statistiche (*Entità Critica*, *% del Morale come Danno da*), uniformati nomi e termini fedeli alla traduzione italiana classica (*Il Decumano Remoto*, *Colline Ventose*, *Radura Immacolata*, *Valle dei Rivi Tenebrosi*, *Mandimartello*, *Artiglio delle Caverne*, *Gioielliere*, *Goblin*, *Drago*, *Riforgiato*, *Raminghi*, *Númenóreano*) e corretti voci specifiche come *Castoni* (`Settings`) e *Schianto* (`Smash`).
+
+### `U50.2 — Revisione r4` *(22 novembre 2026)*
 - **Schermata di selezione personaggio / Lobby**: accorciato il pulsante principale di ingresso su 2 righe (***La Terra\ndi Mezzo***), compattato ***Gioco dei Mostri*** / *Avvia Mostri* ed eliminato il taglio vicino all'Anello; rifinite anche le voci di personalizzazione aspetto (*Barba e Baffi*, *Corporatura*, *Acconciatura*).
 - **Opzioni → Grafica Avanzata & Interfaccia**: sostituiti termini tecnici poco naturali e uniformati i relativi tooltip (*Distanza vegetazione*, *Densità vegetazione*, *Colore vegetazione terreno*, *Texture*, *Filtraggio Texture*, *Oggetti distanti*, *Ambiente*), risolti i pulsanti troncati (*Predef. Avanzate*, *Tutti*) e corretto il tooltip dell'equipaggiamento (*Apri/chiudi equipaggiamento*).
 - **Toponimi, titoli ed emote**: uniformata in oltre 150 missioni e dialoghi delle Terre Solitarie ***La Locanda Abbandonata*** (*The Forsaken Inn*, eliminando sviste in cui compariva il *Puledro Impennato* o concordanze errate), corretto il titolo ***Guardaconfini della Contea*** e sistemata la concordanza grammaticale dell'emote */hug* (`Ti abbracci. Non ti senti meglio?`).
@@ -30,10 +34,10 @@ Tutte le novità e le revisioni dei testi in gioco, dalla più recente alla prim
 
 ---
 
-## In lavorazione per il prossimo aggiornamento (`U50.2 r5`)
+## In lavorazione per il prossimo aggiornamento (`U50.2 r6`)
 
 Raccolta continua delle segnalazioni in-game per i prossimi aggiornamenti cumulativi:
 
-- Nessuna voce in sospeso al momento: le segnalazioni aperte finora sono state tutte integrate nella revisione **`U50.2 r4`**.
+- Integrazione futura di mappe e filmati in italiano attraverso **Vesper LotRO Patcher**, oltre alle nuove segnalazioni della community.
 
 Hai notato un errore di traduzione, un testo tagliato o un nome strano in gioco? Segnalacelo sul **[Canale Discord LOTRO Italia](https://discord.gg/KpAYHHsrzV)** o nella sezione **[Issues](https://github.com/dylantorresin/vesper-lotro-patcher/issues)**: lo aggiungeremo alla coda del prossimo aggiornamento!

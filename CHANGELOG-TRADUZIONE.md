@@ -9,7 +9,14 @@ Tutte le novità e le revisioni dei testi in gioco, dalla più recente alla prim
 
 ## Revisioni rilasciate
 
-### `U50.2 — Revisione r5` *(23 novembre 2026 — versione attuale)*
+### `U50.2 — Revisione r6` *(24 novembre 2026 — versione attuale)*
+- **Ringraziamento speciale a Freemont** per il grandissimo lavoro di traduzione condiviso con la community, integrato in questa revisione insieme al Glossario V3 e a una verifica completa su tutto il gioco.
+- **Oltre `535.000` testi migliorati (`535.314` frammenti) e `+2.141` nuove frasi tradotte** su missioni, dialoghi, abilità, tratti, oggetti, artigianato, imprese, PNG e interfaccia (`823.339` righe verificate al `100%`).
+- **Prosa naturale e maiuscole fedeli all'inglese**: uniformati nomi di oggetti, abilità, creature, luoghi e missioni seguendo fedelmente lo stile originale inglese.
+- **Terminologia V3 unificata**: statistiche (*Valore Critico*, *Precisione*, *Preparazione*, *Schivata*, *Recupero*, *Cure Ricevute/Effettuate*, *Mitigazione Fisica/Tattica*, *Danno Critico*, *Terrore*), meccaniche e mestieri (*Spedizione Profonda*, *Schermaglia*, *Destriero da Guerra*, *Intarsio*, *Approvvigionatore*, *Mastro Stalliere*, *Clava* / *Mazza*) e toponimi classici Alliata/Principe.
+- **Genere Maschile/Femminile ampliato e fix in-game**: aggiunti oltre `640` nuovi titoli dinamici M/F, sistemata la concordanza di genere nei dialoghi e corretti casi specifici segnalati (*faggiole (noci di faggio)*, *Boccale di Birra Speziata*), preservando comandi slash e fix UI.
+
+### `U50.2 — Revisione r5` *(23 novembre 2026)*
 - **Titoli personaggio Maschile/Femminile (`1.555` titoli)**: introdotta la distinzione dinamica in base al genere del personaggio su oltre millecinquecento titoli in gioco *(es. Sterminatore/Sterminatrice, Esploratore/Esploratrice, Sceriffo Onorario/Sceriffa Onoraria)*.
 - **Oltre `1.690` correzioni e miglioramenti su missioni, oggetti e abilità**: eliminati refusi residui e frasi lasciate in inglese, sistemata la scorrevolezza delle statistiche (*Entità Critica*, *% del Morale come Danno da*), uniformati nomi e termini fedeli alla traduzione italiana classica (*Il Decumano Remoto*, *Colline Ventose*, *Radura Immacolata*, *Valle dei Rivi Tenebrosi*, *Mandimartello*, *Artiglio delle Caverne*, *Gioielliere*, *Goblin*, *Drago*, *Riforgiato*, *Raminghi*, *Númenóreano*) e corretti voci specifiche come *Castoni* (`Settings`) e *Schianto* (`Smash`).
 
@@ -34,7 +41,7 @@ Tutte le novità e le revisioni dei testi in gioco, dalla più recente alla prim
 
 ---
 
-## In lavorazione per il prossimo aggiornamento (`U50.2 r6`)
+## In lavorazione per il prossimo aggiornamento (`U50.2 r7`)
 
 Raccolta continua delle segnalazioni in-game per i prossimi aggiornamenti cumulativi:
 

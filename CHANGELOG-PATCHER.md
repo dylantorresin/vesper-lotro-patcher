@@ -9,7 +9,10 @@ Storico delle versioni dell'applicazione desktop **Vesper LotRO Patcher**, dalla
 
 ## Versioni rilasciate
 
-### `v1.4.0` *(24 novembre 2026 — versione attuale)*
+### `v1.4.1` *(24 novembre 2026 — versione attuale)*
+- **Chi ha tradotto ogni frase, finalmente visibile**: nell'Area Traduttori ogni stringa mostra la sua vera provenienza al posto della generica etichetta "AI": **`Freemont`** (viola), **`AI`** (solo traduzioni automatiche Gemini), **`QA Vesper`**, oppure il **profilo del traduttore Hub** con chi l'ha approvata (es. `✍ mario · ✓ dylan`). Le frasi già controllate riportano **`✓ revisionata`**; passando il mouse sul badge compare la spiegazione completa.
+
+### `v1.4.0` *(24 novembre 2026)*
 - **21 categorie di gioco in Area Traduttori (`Vesper Translate Hub`)**: nuovo filtro dedicato per esplorare e revisionare subito per ambito reale (`Missioni`, `Dialoghi`, `Abilità`, `Tratti`, `Oggetti`, `Artigianato`, `Imprese`, `PNG`, `Nemici`, `Titoli`, ecc.) con contatori file e badge chiari sia nei risultati sia nel *Contesto File*.
 - **Rilevamento rapido nuove patch & testi da tradurre**: selettore automatico delle patch disponibili, filtri dedicati **`Da tradurre`** (`pending` + fallite) e **`Novità patch`** (**`NUOVA`** / **`MODIFICATA`** rispetto alla patch precedente) e pulsanti statistici cliccabili in 1 clic.
 - **Guida Rapida Traduttori integrata in-app**: nuovo pulsante **`Guida Traduttori`** nella scheda `Traduttori` (accessibile solo dopo il login) con flusso operativo, regole tag 1:1, genere M/F e riferimento rapido *Canone Alliata/Principe & Glossario V3*.

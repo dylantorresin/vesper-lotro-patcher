@@ -9,7 +9,13 @@ Storico delle versioni dell'applicazione desktop **Vesper LotRO Patcher**, dalla
 
 ## Versioni rilasciate
 
-### `v1.3.1` *(22 novembre 2026 — versione attuale)*
+### `v1.4.0` *(24 novembre 2026 — versione attuale)*
+- **21 categorie di gioco in Area Traduttori (`Vesper Translate Hub`)**: nuovo filtro dedicato per esplorare e revisionare subito per ambito reale (`Missioni`, `Dialoghi`, `Abilità`, `Tratti`, `Oggetti`, `Artigianato`, `Imprese`, `PNG`, `Nemici`, `Titoli`, ecc.) con contatori file e badge chiari sia nei risultati sia nel *Contesto File*.
+- **Rilevamento rapido nuove patch & testi da tradurre**: selettore automatico delle patch disponibili, filtri dedicati **`Da tradurre`** (`pending` + fallite) e **`Novità patch`** (**`NUOVA`** / **`MODIFICATA`** rispetto alla patch precedente) e pulsanti statistici cliccabili in 1 clic.
+- **Guida Rapida Traduttori integrata in-app**: nuovo pulsante **`Guida Traduttori`** nella scheda `Traduttori` (accessibile solo dopo il login) con flusso operativo, regole tag 1:1, genere M/F e riferimento rapido *Canone Alliata/Principe & Glossario V3*.
+- **Ricerca Hub più veloce**: ottimizzazione lato server delle query per categoria di gioco.
+
+### `v1.3.1` *(22 novembre 2026)*
 - **Schermo intero ottimizzato per monitor grandi e ultrawide (es. 34")**: l'Area Traduttori ora sfrutta tutta la larghezza della finestra con pannelli più ampi (fino a 3 colonne affiancate per ricerca, editor e contesto file).
 - **Testo ingrandibile a scelta**: aggiunto in alto a destra il selettore **`Testo: Normale / Grande / Molto grande`** con dimensionamento più leggibile automatico sugli schermi ad alta risoluzione.
 - **Compatibilità e stabilità Hub**: migliorata la lettura e la resilienza di caricamento delle frasi dal server traduttori.

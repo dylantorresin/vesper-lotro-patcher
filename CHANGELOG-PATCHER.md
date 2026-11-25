@@ -9,7 +9,15 @@ Storico delle versioni dell'applicazione desktop **Vesper LotRO Patcher**, dalla
 
 ## Versioni rilasciate
 
-### `v1.4.1` *(24 novembre 2026 — versione attuale)*
+### `v1.5.0` *(25 novembre 2026 — versione attuale)*
+- **Glossario V3 a portata di clic per i traduttori**: nell'Area Traduttori c'è il nuovo pulsante **Glossario V3** per consultare tutti i termini ufficiali (canone Alliata) con ricerca e filtro per sezione.
+- **Proponi termini nuovi o correzioni**: ogni traduttore può suggerire una parola nuova o una modifica a una voce esistente, con una nota per spiegare la scelta. Un revisore controlla la proposta e la approva o la rifiuta, così il glossario resta sempre coerente.
+- **Area Traduttori più semplice e chiara**: gli errori del controllo automatico ora sono spiegati in italiano (es. "Parentesi quadre diverse dall'inglese"), la pagina non perde più il punto in cui stavi scrivendo, i codici tecnici sono nascosti in "Dettagli tecnici" e il controllo parte da solo prima di inviare una bozza.
+- **Coda bozze migliorata**: filtro "Solo le mie", pulsante "Carica altre" e conferma prima di rifiutare senza una nota.
+- **Sessione scaduta gestita bene**: se l'accesso scade, l'app te lo dice con un solo messaggio e ti riporta al login.
+- **Per lo staff**: nuova scheda **Attività** con lo storico delle revisioni e, per gli amministratori, il pannello **Amministrazione** per gestire gli utenti e preparare i nuovi pacchetti della traduzione.
+
+### `v1.4.1` *(24 novembre 2026)*
 - **Chi ha tradotto ogni frase, finalmente visibile**: nell'Area Traduttori ogni stringa mostra la sua vera provenienza al posto della generica etichetta "AI": **`Freemont`** (viola), **`AI`** (solo traduzioni automatiche Gemini), **`QA Vesper`**, oppure il **profilo del traduttore Hub** con chi l'ha approvata (es. `✍ mario · ✓ dylan`). Le frasi già controllate riportano **`✓ revisionata`**; passando il mouse sul badge compare la spiegazione completa.
 
 ### `v1.4.0` *(24 novembre 2026)*

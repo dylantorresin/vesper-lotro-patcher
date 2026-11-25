@@ -4,7 +4,7 @@ Installa e aggiorna la traduzione italiana non ufficiale di **The Lord of the Ri
 
 > 💛 **Un ringraziamento speciale a Freemont!** Ha condiviso con il progetto oltre **380.000 traduzioni**: gran parte del testo italiano che leggi in gioco è merito anche suo.
 
-> 📜 **[Changelog Traduzione (`CHANGELOG-TRADUZIONE.md`)](CHANGELOG-TRADUZIONE.md)** · 🛠️ **[Changelog Patcher (`CHANGELOG-PATCHER.md`)](CHANGELOG-PATCHER.md)** — revisioni dei testi in gioco (`U50.2 r1` → `r4`), segnalazioni aperte e novità dell'app Windows.
+> 📜 **[Changelog Traduzione (`CHANGELOG-TRADUZIONE.md`)](CHANGELOG-TRADUZIONE.md)** · 🛠️ **[Changelog Patcher (`CHANGELOG-PATCHER.md`)](CHANGELOG-PATCHER.md)** — revisioni dei testi in gioco (`U50.2 r1` → `r6`), segnalazioni aperte e novità dell'app Windows.
 
 ---
 

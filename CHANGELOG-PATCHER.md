@@ -9,7 +9,13 @@ Storico delle versioni dell'applicazione desktop **Vesper LotRO Patcher**, dalla
 
 ## Versioni rilasciate
 
-### `v1.6.1` *(26 novembre 2026 — versione attuale)*
+### `v1.6.2` *(27 novembre 2026 — versione attuale)*
+- **Area Traduttori più sicura sui testi ripetuti (`Solo qui` / `Ovunque nel gioco`)**: quando selezioni una frase che appare in più punti del gioco, di default modifichi solo quel punto (**Solo qui**); scegliendo **Ovunque nel gioco (N)** vedi subito nella nuova scheda **Dove appare (N)** l'elenco di tutti i punti interessati prima di inviare. Sui testi che compaiono in 1 solo punto l'opzione viene nascosta per semplificare l'editor.
+- **Scheda dedicata `Bozze` + pulsante `Approva tutte`**: la coda bozze si apre ora in una scheda separata molto più ampia (con badge contatore live), invece che compressa in basso, e i revisori possono approvare in blocco tutte le bozze in attesa con il pulsante **Approva tutte**.
+- **Intestazione più ordinata e leggibile**: menu principale (**Giocatore / Traduttori / Impostazioni**) centrato nella barra in alto, navigazione Hub affiancata al tuo profilo e filtri di stato centrati per avere più spazio per tradurre.
+- **Notifiche integrate nell'intestazione**: gli avvisi e le conferme ora compaiono direttamente nella barra superiore senza coprire i pulsanti in basso a destra.
+
+### `v1.6.1` *(26 novembre 2026)*
 - **Video in italiano compatibili con Steam e launcher ufficiale (`55/85 · 64,7%`)**: i filmati in italiano vengono ora installati nella loro cartella dedicata così il launcher ufficiale di LOTRO non riscarica quelli inglesi e non compaiono errori all'avvio.
 - **Pulizia automatica dalla `v1.6.0`**: se avevi provato i video con la versione precedente, il patcher sblocca in automatico i vecchi file e riattiva i video italiani al primo clic su **Aggiorna Traduzione Italiana**.
 - **Controlli più chiari**: migliorata la verifica automatica delle schermate di caricamento e aggiunto un avviso chiaro se per sbaglio si seleziona un archivio `.tar.zst` dentro *Installa da file locale...* (utile solo per pacchetti testi `.db` / `.db.zst`).

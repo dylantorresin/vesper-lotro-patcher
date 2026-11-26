@@ -9,7 +9,14 @@ Storico delle versioni dell'applicazione desktop **Vesper LotRO Patcher**, dalla
 
 ## Versioni rilasciate
 
-### `v1.5.0` *(25 novembre 2026 — versione attuale)*
+### `v1.5.1` *(26 novembre 2026 — versione attuale)*
+- **Area Traduttori molto più veloce**: ricerca frasi, cambio pagina, filtri e statistiche ora rispondono quasi istantaneamente grazie all'ottimizzazione del server e al riuso delle connessioni sicure.
+- **Filtri unificati e più puliti**: rimossi i menu a tendina duplicati nella colonna di ricerca; tutti gli stati (**Tutte**, **Da tradurre**, **Da rivedere (AI)**, **Revisionate**, **Novità** e **Override contestuali**) sono ora in un'unica barra rapida in alto, con il pulsante **Bozze in attesa ↓** che ti porta subito alla coda bozze.
+- **`Da rivedere` solo per l'AI e accessi diretti agli override**: il filtro **Da rivedere (AI)** mostra esclusivamente le traduzioni automatiche da controllare, e cliccando un risultato in **Override contestuali** si apre subito il punto esatto del file in modalità *"Solo questo punto"*.
+- **Interfaccia e schermata intera rifinite**: intestazione Hub più ordinata, tasti e menu allineati con la stessa altezza, barre di scorrimento scure integrate e layout a 3 colonne ancora più leggibile a schermo intero.
+- **Adattamento automatico allo schermo**: all'avvio la finestra si dimensiona da sola in base al monitor (massimizzata sui portatili più compatti, proporzionata su schermi grandi/4K) con la nuova opzione predefinita **Testo: Auto** per mantenere tutto sempre leggibile.
+
+### `v1.5.0` *(25 novembre 2026)*
 - **Glossario V3 a portata di clic per i traduttori**: nell'Area Traduttori c'è il nuovo pulsante **Glossario V3** per consultare tutti i termini ufficiali (canone Alliata) con ricerca e filtro per sezione.
 - **Proponi termini nuovi o correzioni**: ogni traduttore può suggerire una parola nuova o una modifica a una voce esistente, con una nota per spiegare la scelta. Un revisore controlla la proposta e la approva o la rifiuta, così il glossario resta sempre coerente.
 - **Area Traduttori più semplice e chiara**: gli errori del controllo automatico ora sono spiegati in italiano (es. "Parentesi quadre diverse dall'inglese"), la pagina non perde più il punto in cui stavi scrivendo, i codici tecnici sono nascosti in "Dettagli tecnici" e il controllo parte da solo prima di inviare una bozza.

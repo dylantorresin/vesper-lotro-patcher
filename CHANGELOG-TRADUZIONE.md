@@ -9,7 +9,14 @@ Tutte le novità e le revisioni dei testi in gioco, dalla più recente alla prim
 
 ## Revisioni rilasciate
 
-### `U50.2 — Revisione r6` *(24 novembre 2026 — versione attuale)*
+### `U50.2 — Revisione r7` *(26 novembre 2026 — versione attuale)*
+- **Contenuti grafici e video opzionali (`assets-v1`) selezionabili da Vesper LotRO Patcher `v1.6.0`**:
+  - **11 schermate di caricamento in italiano (`100%`)**: tradotte tutte le schermate di caricamento e avvio del gioco, incluso l'invito al canale Discord **LotRO Italian**.
+  - **36 mappe regionali in italiano (`16,5%`, `36/218`)**: mappe delle regioni tradotte pronte in 1 clic e sempre reversibili in inglese.
+  - **55 filmati localizzati (`64,7%`, `55/85`)**: intro di gioco, filmati di tutte le classi/razze e cutscene della storia (pacchetto opzionale).
+- **Tutti i `717.468` testi di gioco in italiano invariati e verificati al `100%`** rispetto alla revisione `r6` (`823.339` righe complessive).
+
+### `U50.2 — Revisione r6` *(24 novembre 2026)*
 - **Ringraziamento speciale a Freemont** per il grandissimo lavoro di traduzione condiviso con la community, integrato in questa revisione insieme al Glossario V3 e a una verifica completa su tutto il gioco.
 - **Oltre `535.000` testi migliorati (`535.314` frammenti) e `+2.141` nuove frasi tradotte** su missioni, dialoghi, abilità, tratti, oggetti, artigianato, imprese, PNG e interfaccia (`823.339` righe verificate al `100%`).
 - **Prosa naturale e maiuscole fedeli all'inglese**: uniformati nomi di oggetti, abilità, creature, luoghi e missioni seguendo fedelmente lo stile originale inglese.
@@ -41,7 +48,7 @@ Tutte le novità e le revisioni dei testi in gioco, dalla più recente alla prim
 
 ---
 
-## In lavorazione per il prossimo aggiornamento (`U50.2 r7`)
+## In lavorazione per il prossimo aggiornamento (`U50.2 r8`)
 
 Raccolta continua delle segnalazioni in-game per i prossimi aggiornamenti cumulativi:
 

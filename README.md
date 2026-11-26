@@ -4,7 +4,7 @@ Installa e aggiorna la traduzione italiana non ufficiale di **The Lord of the Ri
 
 > 💛 **Un ringraziamento speciale a Freemont!** Ha condiviso con il progetto oltre **380.000 traduzioni**: gran parte del testo italiano che leggi in gioco è merito anche suo.
 
-> 📜 **[Changelog Traduzione (`CHANGELOG-TRADUZIONE.md`)](CHANGELOG-TRADUZIONE.md)** · 🛠️ **[Changelog Patcher (`CHANGELOG-PATCHER.md`)](CHANGELOG-PATCHER.md)** — revisioni dei testi in gioco (`U50.2 r1` → `r6`), segnalazioni aperte e novità dell'app Windows.
+> 📜 **[Changelog Traduzione (`CHANGELOG-TRADUZIONE.md`)](CHANGELOG-TRADUZIONE.md)** · 🛠️ **[Changelog Patcher (`CHANGELOG-PATCHER.md`)](CHANGELOG-PATCHER.md)** — revisioni dei testi in gioco (`U50.2 r1` → `r7`), segnalazioni aperte e novità dell'app Windows (`v1.6.0`).
 
 ---
 
@@ -13,7 +13,7 @@ Installa e aggiorna la traduzione italiana non ufficiale di **The Lord of the Ri
 1. Vai in **[Releases](https://github.com/dylantorresin/vesper-lotro-patcher/releases)** e scarica `Vesper LotRO Patcher ... x64-setup.exe`.
 2. Avvia l'installer *(se compare l'avviso blu Windows SmartScreen, clicca **Ulteriori informazioni → Esegui comunque**)*.
 3. **Chiudi completamente LOTRO e il launcher ufficiale**.
-4. Apri **Vesper LotRO Patcher** (trova LOTRO in automatico; usa **Cambia...** solo se il gioco è in una cartella personalizzata) e clicca **Installa Traduzione Italiana**. Quando ha finito, avvia LOTRO!
+4. Apri **Vesper LotRO Patcher** (trova LOTRO in automatico; usa **Cambia...** solo se il gioco è in una cartella personalizzata), scegli i contenuti che vuoi (**Testi di gioco**, **Schermate di caricamento**, **Mappe in italiano** e l'opzionale **Video in italiano**) e clicca **Installa Traduzione Italiana**. Quando ha finito, avvia LOTRO!
 
 ---
 

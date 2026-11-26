@@ -9,7 +9,13 @@ Storico delle versioni dell'applicazione desktop **Vesper LotRO Patcher**, dalla
 
 ## Versioni rilasciate
 
-### `v1.5.1` *(26 novembre 2026 — versione attuale)*
+### `v1.6.0` *(26 novembre 2026 — versione attuale)*
+- **Schermate di caricamento in italiano (100%)**: tradotte tutte le schermate di caricamento e avvio del gioco, incluse quelle che invitano nuovi giocatori sul canale Discord **LotRO Italian**!
+- **Mappe delle regioni e video localizzati selezionabili in 1 clic**: nella scheda **2. Traduzione Italiana** ora trovi 4 scelte chiare (**Testi di gioco 100%**, **Schermate di caricamento 100%**, **Mappe in italiano 16,5% (36/218)** e **Video in italiano 64,7% (55/85)**, facoltativo) con la percentuale reale di copertura tradotta e installazione selettiva.
+- **Nessuna fatica all'avvio di LOTRO**: le schermate e i video in italiano vengono protetti automaticamente in sola lettura, così il launcher ufficiale di LOTRO non te li sovrascrive quando avvii il gioco normalmente.
+- **Tutto reversibile al 100%**: il pulsante **Ripristina Inglese Originale** riporta in un clic sia i testi, sia le mappe, le schermate e i video allo stato originale inglese.
+
+### `v1.5.1` *(26 novembre 2026)*
 - **Area Traduttori molto più veloce**: ricerca frasi, cambio pagina, filtri e statistiche ora rispondono quasi istantaneamente grazie all'ottimizzazione del server e al riuso delle connessioni sicure.
 - **Filtri unificati e più puliti**: rimossi i menu a tendina duplicati nella colonna di ricerca; tutti gli stati (**Tutte**, **Da tradurre**, **Da rivedere (AI)**, **Revisionate**, **Novità** e **Override contestuali**) sono ora in un'unica barra rapida in alto, con il pulsante **Bozze in attesa ↓** che ti porta subito alla coda bozze.
 - **`Da rivedere` solo per l'AI e accessi diretti agli override**: il filtro **Da rivedere (AI)** mostra esclusivamente le traduzioni automatiche da controllare, e cliccando un risultato in **Override contestuali** si apre subito il punto esatto del file in modalità *"Solo questo punto"*.

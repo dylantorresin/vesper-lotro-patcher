@@ -4,7 +4,7 @@ Installa e aggiorna la traduzione italiana non ufficiale di **The Lord of the Ri
 
 > 💛 **Un ringraziamento speciale a Freemont!** Ha condiviso con il progetto oltre **380.000 traduzioni**: gran parte del testo italiano che leggi in gioco è merito anche suo.
 
-> 📜 **[Changelog Traduzione (`CHANGELOG-TRADUZIONE.md`)](CHANGELOG-TRADUZIONE.md)** · 🛠️ **[Changelog Patcher (`CHANGELOG-PATCHER.md`)](CHANGELOG-PATCHER.md)** — revisioni dei testi in gioco (`U50.2 r1` → `r7`), segnalazioni aperte e novità dell'app Windows (`v1.6.2`).
+> 📜 **[Changelog Traduzione (`CHANGELOG-TRADUZIONE.md`)](CHANGELOG-TRADUZIONE.md)** · 🛠️ **[Changelog Patcher (`CHANGELOG-PATCHER.md`)](CHANGELOG-PATCHER.md)** — revisioni dei testi in gioco (`U50.2 r1` → `r7`), segnalazioni aperte e novità dell'app Windows (`v1.6.3`).
 
 ---
 
@@ -22,7 +22,7 @@ Installa e aggiorna la traduzione italiana non ufficiale di **The Lord of the Ri
 - **Cosa succede quando esce una patch ufficiale di LOTRO?**  
   I testi invariati restano in italiano e le sole frasi nuove restano in inglese finché non pubblichiamo l'aggiornamento. Appena esce, apri il Patcher e premi **Aggiorna Traduzione Italiana**.
 - **Posso tornare al gioco originale in inglese?**  
-  Sì, in qualsiasi momento con un clic su **Ripristina Inglese Originale**.
+  Sì, in qualsiasi momento con un clic su **Ripristina file inglesi originali** nel riquadro dedicato della scheda **Giocatore**.
 - **Serve registrarsi o creare un account?**  
   No. La scheda **Traduttori** è riservata allo staff; per giocare basta la prima schermata.
 

@@ -9,7 +9,17 @@ Storico delle versioni dell'applicazione desktop **Vesper LotRO Patcher**, dalla
 
 ## Versioni rilasciate
 
-### `v1.6.2` *(27 novembre 2026 — versione attuale)*
+### `v1.6.3` *(27 novembre 2026 — versione attuale)*
+- **Scheda `Giocatore` rinnovata**:
+  - Nuova guida integrata e ricercabile dei **comandi chat `/`** in inglese (con spiegazione in italiano), utili per interfaccia, plugin, gruppi e utilità senza dover tradurre i comandi in gioco.
+  - Nuovo riquadro di emergenza **«Il client non si avvia o vuoi tornare in inglese?»** attorno al pulsante `Ripristina file inglesi originali` e sezione tecnica rinominata in **`Statistiche per nerd`**.
+- **Area Traduttori (`Vesper Translate Hub`)**:
+  - **Accesso rapido «Ricordami su questo PC»** su Windows con cifratura locale **Windows DPAPI** legata al proprio account Windows (rimozione automatica su `Esci`).
+  - **Gestione punti multipli migliorata**: cliccando un punto in **`Dove appare (N)`** l'anteprima mostra traduzione e riga vicina, resta nella lista punti e aggiorna **`Solo qui (Posto X di N)`** vs **`Tutti i N punti`**, con pulsante dedicato **`Apri file intero`**.
+  - **Scheda `Bozze` a 3 colonne** *(Elenco | Dettaglio & Modifica | Contesto del file)* con note autore/revisore sempre visibili, modifica/cancellazione bozze e pulizia rifiutate (**`Svuota rifiutate`**).
+  - **`Attività` a card filtrabili**, **`Testa bozze in gioco`** con scelta rapida **`Solo le mie` / `Tutte`**, **`Aggiorna database`** e finestra **`Glossario V3`** adattiva anche su schermi grandi.
+
+### `v1.6.2` *(27 novembre 2026)*
 - **Area Traduttori più sicura sui testi ripetuti (`Solo qui` / `Ovunque nel gioco`)**: quando selezioni una frase che appare in più punti del gioco, di default modifichi solo quel punto (**Solo qui**); scegliendo **Ovunque nel gioco (N)** vedi subito nella nuova scheda **Dove appare (N)** l'elenco di tutti i punti interessati prima di inviare. Sui testi che compaiono in 1 solo punto l'opzione viene nascosta per semplificare l'editor.
 - **Scheda dedicata `Bozze` + pulsante `Approva tutte`**: la coda bozze si apre ora in una scheda separata molto più ampia (con badge contatore live), invece che compressa in basso, e i revisori possono approvare in blocco tutte le bozze in attesa con il pulsante **Approva tutte**.
 - **Intestazione più ordinata e leggibile**: menu principale (**Giocatore / Traduttori / Impostazioni**) centrato nella barra in alto, navigazione Hub affiancata al tuo profilo e filtri di stato centrati per avere più spazio per tradurre.

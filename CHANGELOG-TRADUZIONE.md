@@ -9,7 +9,11 @@ Tutte le novità e le revisioni dei testi in gioco, dalla più recente alla prim
 
 ## Revisioni rilasciate
 
-### `U50.2 — Revisione r7` *(26 novembre 2026 — versione attuale)*
+### `U50.2 — Revisione r8` *(27 novembre 2026 — versione attuale)*
+- **Tutti i comandi chat `/` e gli emote ripristinati al 100% in inglese**: riportati in inglese sia i comandi di interfaccia/gestione (`/ui layout save`, `/ui layout load`, `/plugins manager`, `/resetui`, `/kinship promote/demote/motd`, `/rp`, `/stuck`, ecc. inclusi i relativi messaggi di aiuto) sia tutti i `268` nomi dei comandi `/emote` (`/bow`, `/dance`, `/cheer`, `/wave`, `/salute`, ecc.), così macro, plugin Lua e guide online funzionano sempre senza conflitti *(i messaggi di sistema e i testi narrativi restano in italiano)*.
+- **12 miglioramenti all'interfaccia** dall'Hub Traduttori: rifinite voci e abbreviazioni dei menu *Voce*, *Creazione*, *Opzioni di Combattimento*, ricerca giocatori (*Chi / Who*) e *Sintonizzazione* per renderle ancora più chiare e leggibili in gioco.
+
+### `U50.2 — Revisione r7` *(26 novembre 2026)*
 - **Contenuti grafici e video opzionali (`assets-v1`) selezionabili da Vesper LotRO Patcher `v1.6.1`**:
   - **11 schermate di caricamento in italiano (`100%`)**: tradotte tutte le schermate di caricamento e avvio del gioco, incluso l'invito al canale Discord **LotRO Italian**.
   - **36 mappe regionali in italiano (`16,5%`, `36/218`)**: mappe delle regioni tradotte pronte in 1 clic e sempre reversibili in inglese.
@@ -48,7 +52,7 @@ Tutte le novità e le revisioni dei testi in gioco, dalla più recente alla prim
 
 ---
 
-## In lavorazione per il prossimo aggiornamento (`U50.2 r8`)
+## In lavorazione per il prossimo aggiornamento (`U50.2 r9`)
 
 Raccolta continua delle segnalazioni in-game per il prossimo aggiornamento cumulativo dei testi.
 

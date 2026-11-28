@@ -3,10 +3,16 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Traduzione Italiana LOTRO 100% — Vesper LotRO Patcher (The Lord of the Rings Online)</title>
-  <meta name="description" content="Scarica Vesper LotRO Patcher per Windows 64-bit e installa in 1 clic la traduzione italiana completa al 100% di The Lord of the Rings Online (LOTRO), con canone Alliata/Principe, schermate, mappe, video e ripristino in inglese." />
+  <title>LOTRO Italian — Traduzione Italiana 100% | Vesper LotRO Patcher</title>
+  <meta name="description" content="Scarica Vesper LotRO Patcher per Windows 64-bit e installa in 1 clic la traduzione italiana completa al 100% di The Lord of the Rings Online (LOTRO), con canone Alliata/Principe, schermate, mappe, video e ripristino istantaneo." />
   <link rel="canonical" href="https://dylantorresin.github.io/vesper-lotro-patcher/" />
   <link rel="icon" href="./assets/favicon.ico" sizes="any" />
+  <link rel="apple-touch-icon" href="./assets/lotro-italian-logo.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="./assets/hero-middle-earth.webp" type="image/webp" />
 
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="it_IT" />
@@ -14,19 +20,29 @@
   <meta property="og:title" content="Traduzione Italiana LOTRO 100% — Vesper LotRO Patcher" />
   <meta property="og:description" content="Traduzione italiana gratuita e in 1 clic di The Lord of the Rings Online (canone Alliata/Principe): 717.144 testi di gioco, schermate, mappe e video in italiano, compatibile con Steam e launcher ufficiale." />
   <meta property="og:url" content="https://dylantorresin.github.io/vesper-lotro-patcher/" />
-  <meta property="og:image" content="https://dylantorresin.github.io/vesper-lotro-patcher/assets/og-icon.png" />
+  <meta property="og:image" content="https://dylantorresin.github.io/vesper-lotro-patcher/assets/og-banner.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="LOTRO Italian — Vesper LotRO Patcher: traduzione italiana 100% di The Lord of the Rings Online" />
 
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Traduzione Italiana LOTRO 100% — Vesper LotRO Patcher" />
   <meta name="twitter:description" content="Installa e aggiorna la traduzione italiana di The Lord of the Rings Online in 1 clic su Windows x64." />
-  <meta name="twitter:image" content="https://dylantorresin.github.io/vesper-lotro-patcher/assets/og-icon.png" />
+  <meta name="twitter:image" content="https://dylantorresin.github.io/vesper-lotro-patcher/assets/og-banner.jpg" />
 
   <link rel="stylesheet" href="./styles.css" />
+  <script defer src="./app.js"></script>
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "LOTRO Italian — Vesper LotRO Patcher",
+        "url": "https://dylantorresin.github.io/vesper-lotro-patcher/",
+        "inLanguage": "it"
+      },
       {
         "@type": "SoftwareApplication",
         "name": "Vesper LotRO Patcher",
@@ -38,6 +54,7 @@
         "operatingSystem": "Windows 10, Windows 11 (x64)",
         "applicationCategory": "GameApplication",
         "inLanguage": "it",
+        "image": "https://dylantorresin.github.io/vesper-lotro-patcher/assets/og-banner.jpg",
         "offers": {
           "@type": "Offer",
           "price": "0",
@@ -113,177 +130,778 @@
       <a class="brand" href="./">
         <img class="brand-logo" src="./assets/lotro-italian-logo.png" alt="Logo LOTRO Italian" width="44" height="44" />
         <span class="brand-text">
-          <span class="brand-title">Vesper LotRO Patcher</span>
-          <span class="brand-subtitle">Traduzione Italiana LOTRO · Canone Alliata/Principe</span>
+          <span class="brand-title">LOTRO Italian</span>
+          <span class="brand-subtitle">Vesper Patcher</span>
         </span>
       </a>
 
       <nav class="main-nav" aria-label="Navigazione principale">
-        <a class="nav-link" href="#contenuti">Contenuti</a>
-        <a class="nav-link" href="#installazione">Come installare</a>
+        <a class="nav-link" href="#traduzione">Traduzione</a>
+        <a class="nav-link" href="#moduli">Moduli</a>
+        <a class="nav-link" href="#comandi">Comandi /</a>
+        <a class="nav-link" href="#installazione">Installazione</a>
         <a class="nav-link" href="#faq">FAQ</a>
-        <a class="nav-link" href="https://github.com/dylantorresin/vesper-lotro-patcher/blob/main/CHANGELOG-TRADUZIONE.md" target="_blank" rel="noopener noreferrer">Changelog</a>
       </nav>
 
-      <div class="community-links">
-        <a class="btn btn-discord btn-sm" href="https://discord.gg/KpAYHHsrzV" target="_blank" rel="noopener noreferrer">Discord</a>
+      <div class="header-actions">
+        <a class="btn btn-discord btn-sm header-desktop-cta" href="https://discord.gg/KpAYHHsrzV" target="_blank" rel="noopener noreferrer">Discord</a>
         <a id="header-download-btn" class="btn btn-primary btn-sm" href="https://github.com/dylantorresin/vesper-lotro-patcher/releases/download/v1.6.3/Vesper.LotRO.Patcher_1.6.3_x64-setup.exe">Scarica</a>
+        <button id="mobile-menu-btn" class="icon-btn mobile-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Apri menu di navigazione">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <line x1="4" y1="7" x2="20" y2="7"></line>
+            <line x1="4" y1="12" x2="20" y2="12"></line>
+            <line x1="4" y1="17" x2="20" y2="17"></line>
+          </svg>
+        </button>
       </div>
     </div>
+
+    <div id="mobile-nav" class="mobile-nav" hidden>
+      <div class="container mobile-nav-inner">
+        <nav aria-label="Menu mobile">
+          <a class="mobile-nav-link" href="#traduzione">Traduzione e Canone</a>
+          <a class="mobile-nav-link" href="#moduli">Moduli e Copertura</a>
+          <a class="mobile-nav-link" href="#comandi">Guida Comandi Chat /</a>
+          <a class="mobile-nav-link" href="#installazione">Come Installare</a>
+          <a class="mobile-nav-link" href="#faq">Domande Frequenti</a>
+        </nav>
+        <div class="mobile-nav-ctas">
+          <a class="btn btn-discord" href="https://discord.gg/KpAYHHsrzV" target="_blank" rel="noopener noreferrer">Community Discord</a>
+          <a class="btn btn-primary" href="https://github.com/dylantorresin/vesper-lotro-patcher/releases/download/v1.6.3/Vesper.LotRO.Patcher_1.6.3_x64-setup.exe">Scarica Patcher (.exe)</a>
+        </div>
+      </div>
+    </div>
+    <div class="tricolour-rule" aria-hidden="true"></div>
   </header>
 
   <main id="main-content">
     <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-backdrop" aria-hidden="true">
+        <img class="hero-bg" src="./assets/hero-middle-earth.webp" alt="" width="1376" height="768" fetchpriority="high" />
+        <div class="hero-scrim"></div>
+      </div>
+
       <div class="container hero-grid">
-        <div>
+        <div class="hero-copy">
           <div class="release-pill">
             <span class="dot-live" aria-hidden="true"></span>
             <span id="live-version-badge">Patcher v1.6.3 · Testi U50.2 r8 · Windows x64</span>
           </div>
 
-          <h1 id="hero-title">Traduzione Italiana di The Lord of the Rings Online — 100% completa in 1 clic</h1>
+          <h1 id="hero-title">La Terra di Mezzo,<br />finalmente in Italiano.</h1>
 
           <p class="hero-lead">
-            Gioca a <strong>LOTRO</strong> completamente in italiano seguendo il canone storico <strong>Alliata/Principe</strong>.
-            Nessun file da copiare a mano: installi, aggiorni e ripristini in inglese in un solo clic con <strong>Vesper LotRO Patcher</strong>.
+            Vivi <strong>The Lord of the Rings Online (LOTRO)</strong> al 100% nella nostra lingua, nel pieno rispetto del canone letterario storico <strong>Alliata / Principe</strong>. Con <strong>Vesper LotRO Patcher</strong> installi, aggiorni e ripristini l'originale inglese in un solo clic, senza toccare file a mano.
           </p>
 
           <div class="hero-actions">
-            <a id="primary-download-btn" class="btn btn-primary" href="https://github.com/dylantorresin/vesper-lotro-patcher/releases/download/v1.6.3/Vesper.LotRO.Patcher_1.6.3_x64-setup.exe">
+            <a id="primary-download-btn" class="btn btn-primary btn-lg" href="https://github.com/dylantorresin/vesper-lotro-patcher/releases/download/v1.6.3/Vesper.LotRO.Patcher_1.6.3_x64-setup.exe">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
               Scarica per Windows x64 (.exe)
             </a>
-            <a class="btn" href="https://github.com/dylantorresin/vesper-lotro-patcher/releases/latest" target="_blank" rel="noopener noreferrer">
-              MSI &amp; Checksum SHA-256
+            <a class="btn btn-glass" href="https://github.com/dylantorresin/vesper-lotro-patcher/releases/latest" target="_blank" rel="noopener noreferrer">
+              MSI &amp; SHA-256
             </a>
             <a class="btn btn-discord" href="https://discord.gg/KpAYHHsrzV" target="_blank" rel="noopener noreferrer">
-              Community Discord
+              Discord
             </a>
           </div>
 
-          <ul class="hero-meta">
-            <li>Gratuito al 100%</li>
-            <li>Compatibile Steam e Launcher SSG</li>
-            <li>Ripristino inglese in 1 clic</li>
-            <li>Nessun account richiesto</li>
+          <ul class="hero-trust" aria-label="Garanzie principali">
+            <li>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              <span>100% Gratuito</span>
+            </li>
+            <li>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+              <span>Steam &amp; Launcher SSG</span>
+            </li>
+            <li>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="1 4 1 10 7 10"></polyline><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path></svg>
+              <span>Ripristino inglese 1 clic</span>
+            </li>
+            <li>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              <span>Nessun account</span>
+            </li>
           </ul>
         </div>
 
-        <aside class="card status-card" aria-label="Copertura attuale della traduzione">
-          <div class="status-head">
-            <img class="mascot-img" src="./assets/vesper-mascot.png" alt="Mascotte Vesper LotRO Patcher" width="64" height="64" />
-            <div>
-              <h2 class="status-title">Stato Traduzione (U50.2 r8)</h2>
-              <p class="status-sub">Verificata in-game e selezionabile modulo per modulo</p>
+        <aside class="patcher-window" aria-label="Anteprima interattiva di Vesper LotRO Patcher">
+          <div class="window-chrome">
+            <div class="window-dots" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <span class="window-title">Vesper LotRO Patcher · v1.6.3</span>
+            <span class="window-chip">Pronto</span>
+          </div>
+
+          <div class="window-tabs" aria-hidden="true">
+            <span class="window-tab is-active">Giocatore</span>
+            <span class="window-tab">Traduttori <small>Staff</small></span>
+          </div>
+
+          <div class="window-body">
+            <div class="window-app-head">
+              <img class="mascot-img" src="./assets/vesper-mascot.png" alt="Mascotte Vesper LotRO Patcher" width="52" height="52" />
+              <div>
+                <h2 class="window-app-title">2. Traduzione Italiana · U50.2 r8</h2>
+                <p class="window-app-sub">Prova a spuntare i moduli opzionali installabili in-app</p>
+              </div>
+            </div>
+
+            <div class="mockup-modules">
+              <label class="mockup-row is-locked">
+                <span class="mockup-check">
+                  <input type="checkbox" checked disabled data-module="texts" data-mb="38" />
+                  <span>
+                    <strong>Testi di gioco <small class="pill-inline">Base</small></strong>
+                    <span class="row-meta">717.144 righe: missioni, abilità, oggetti · ~38 MB</span>
+                  </span>
+                </span>
+                <span class="badge badge-ok">100%</span>
+              </label>
+
+              <label class="mockup-row">
+                <span class="mockup-check">
+                  <input type="checkbox" class="js-mod-toggle" checked data-module="screens" data-mb="18" />
+                  <span>
+                    <strong>Schermate di caricamento</strong>
+                    <span class="row-meta">11 / 11 schermate localizzate · ~18 MB</span>
+                  </span>
+                </span>
+                <span class="badge badge-ok">100%</span>
+              </label>
+
+              <label class="mockup-row">
+                <span class="mockup-check">
+                  <input type="checkbox" class="js-mod-toggle" checked data-module="maps" data-mb="42" />
+                  <span>
+                    <strong>Mappe regionali</strong>
+                    <span class="row-meta">36 / 218 mappe della Terra di Mezzo · ~42 MB</span>
+                  </span>
+                </span>
+                <span class="badge badge-gold">16,5%</span>
+              </label>
+
+              <label class="mockup-row">
+                <span class="mockup-check">
+                  <input type="checkbox" class="js-mod-toggle" data-module="videos" data-mb="1157" />
+                  <span>
+                    <strong>Video localizzati (.bik)</strong>
+                    <span class="row-meta">55 / 85 filmati razze e storia · ~1,13 GB</span>
+                  </span>
+                </span>
+                <span class="badge badge-gold">64,7%</span>
+              </label>
+            </div>
+
+            <div class="window-footer">
+              <div id="mockup-summary" class="mockup-summary" aria-live="polite">
+                Pacchetto selezionato: <strong>3 moduli</strong> · ~98 MB
+              </div>
+              <a id="mockup-download-btn" class="btn btn-primary btn-block" href="https://github.com/dylantorresin/vesper-lotro-patcher/releases/download/v1.6.3/Vesper.LotRO.Patcher_1.6.3_x64-setup.exe">
+                Scarica Vesper Patcher (.exe)
+              </a>
             </div>
           </div>
-          <ul class="module-list">
-            <li class="module-row">
-              <div>
-                <strong>Testi di gioco</strong>
-                <small>717.144 righe: missioni, dialoghi, abilità, oggetti</small>
-              </div>
-              <span class="badge">100%</span>
-            </li>
-            <li class="module-row">
-              <div>
-                <strong>Schermate di caricamento</strong>
-                <small>11 / 11 schermate di avvio e attesa</small>
-              </div>
-              <span class="badge">100%</span>
-            </li>
-            <li class="module-row">
-              <div>
-                <strong>Mappe regionali</strong>
-                <small>36 / 218 mappe della Terra di Mezzo tradotte</small>
-              </div>
-              <span class="badge badge-muted">16,5%</span>
-            </li>
-            <li class="module-row">
-              <div>
-                <strong>Video localizzati</strong>
-                <small>55 / 85 filmati classi, razze e storia (opzionale)</small>
-              </div>
-              <span class="badge badge-muted">64,7%</span>
-            </li>
-          </ul>
         </aside>
       </div>
     </section>
 
-    <section id="contenuti" class="section" aria-labelledby="contenuti-title">
+    <section class="stats-strip" aria-label="Numeri del progetto">
+      <div class="container stats-grid">
+        <div class="stat-item">
+          <div class="stat-num">717.144</div>
+          <div class="stat-label">Testi tradotti e verificati (100%)</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">1.550+</div>
+          <div class="stat-label">Titoli dinamici Maschile / Femminile</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">380.000+</div>
+          <div class="stat-label">Traduzioni condivise da Freemont</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">268</div>
+          <div class="stat-label">Comandi <span class="mono">/</span> ed emote protetti in EN</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="traduzione" class="section chronicle-section" aria-labelledby="traduzione-title">
+      <div class="chronicle-backdrop" aria-hidden="true">
+        <img src="./assets/showcase-chronicle.webp" alt="" width="1200" height="670" loading="lazy" />
+        <div class="chronicle-scrim"></div>
+      </div>
+
+      <div class="container chronicle-grid">
+        <div class="editorial-copy">
+          <p class="eyebrow">Fedeltà Tolkieniana</p>
+          <h2 id="traduzione-title">Canone letterario Alliata / Principe</h2>
+          <p class="lead-copy">
+            Niente nomi stravolti né traduzioni automatiche senz'anima: luoghi, popoli, classi e titoli attingono alla tradizione editoriale italiana più amata dai lettori di Tolkien.
+          </p>
+          <p class="muted-copy">
+            Il compilatore verifica 1:1 ogni tag di colore, variabile e segnaposto del client (<span class="mono">&lt;rgb&gt;</span>, <span class="mono">{...}</span>, <span class="mono">#1:</span>) e adatta automaticamente oltre 1.550 titoli di personaggio al genere Maschile o Femminile scelto in gioco.
+          </p>
+          <ul class="editorial-points">
+            <li>Glossario condiviso da oltre 1.000 termini canonici e verificati in gioco</li>
+            <li>Zero stringhe troncate o codici colorati danneggiati nelle finestre di missione</li>
+            <li>Preservazione rigorosa dei comandi <span class="mono">/</span> per compatibilità totale con macro e plugin Lua</li>
+          </ul>
+        </div>
+
+        <div class="showcase-card">
+          <div class="showcase-tablist" role="tablist" aria-label="Esempi interattivi della traduzione">
+            <button id="tab-missioni" class="showcase-tab is-active" type="button" role="tab" aria-selected="true" aria-controls="panel-missioni">Missioni &amp; Luoghi</button>
+            <button id="tab-classi" class="showcase-tab" type="button" role="tab" aria-selected="false" aria-controls="panel-classi">Classi &amp; Abilità</button>
+            <button id="tab-titoli" class="showcase-tab" type="button" role="tab" aria-selected="false" aria-controls="panel-titoli">Titoli M/F Dinamici</button>
+            <button id="tab-comandi-ex" class="showcase-tab" type="button" role="tab" aria-selected="false" aria-controls="panel-comandi-ex">Comandi &amp; Emote</button>
+          </div>
+
+          <div id="panel-missioni" class="showcase-panel is-active" role="tabpanel" aria-labelledby="tab-missioni">
+            <div class="compare-grid">
+              <div class="compare-col">
+                <span class="lang-tag">Inglese Originale</span>
+                <blockquote class="lore-quote lore-en">
+                  "Travel east across the Trollshaws toward Rivendell. The Ranger waits near Weathertop before you cross under the shadow of the Misty Mountains."
+                </blockquote>
+              </div>
+              <div class="compare-col compare-it">
+                <span class="lang-tag lang-tag-gold">Italiano · Alliata / Principe</span>
+                <blockquote class="lore-quote">
+                  "Viaggia verso est attraverso i Boschi dei Troll in direzione di Gran Burrone. Il Ramingo attende presso Colle Vento prima che tu valichi l'ombra delle Montagne Nebbiose."
+                </blockquote>
+              </div>
+            </div>
+
+            <div class="glossary-chips" aria-label="Esempi di toponimi tradotti">
+              <span class="g-chip">Rivendell <strong>Gran Burrone</strong></span>
+              <span class="g-chip">The Shire <strong>La Contea</strong></span>
+              <span class="g-chip">Trollshaws <strong>Boschi dei Troll</strong></span>
+              <span class="g-chip">Weathertop <strong>Colle Vento</strong></span>
+              <span class="g-chip">Misty Mountains <strong>Montagne Nebbiose</strong></span>
+            </div>
+          </div>
+
+          <div id="panel-classi" class="showcase-panel" role="tabpanel" aria-labelledby="panel-classi" hidden>
+            <div class="glossary-chips" style="margin-top:0; margin-bottom:1.25rem;">
+              <span class="g-chip">Warden <strong>Custode</strong></span>
+              <span class="g-chip">Ranger <strong>Ramingo</strong></span>
+              <span class="g-chip">Lore-master <strong>Maestro del Sapere</strong></span>
+              <span class="g-chip">Burglar <strong>Scassinatore</strong></span>
+              <span class="g-chip">Rune-keeper <strong>Custode delle Rune</strong></span>
+            </div>
+            <div class="tooltip-preview">
+              <div class="tooltip-head">
+                <strong>Grido di Battaglia del Custode</strong>
+                <span>Abilità Gambetto · Istantanea</span>
+              </div>
+              <p class="tooltip-body">
+                Scaglia un urlo risoluto che richiama l'attenzione fino a <span class="hl-gold">6 bersagli</span> entro <span class="hl-gold">10 metri</span>, infliggendo danni da Luce nel tempo e aumentando la Mitigazione Tattica di <span class="hl-ok">+15%</span> per <span class="hl-gold">12s</span>.
+              </p>
+              <p class="tooltip-note">Tag di gioco, variabili numeriche e colori dei danni restano intatti 1:1 rispetto al client originale.</p>
+            </div>
+          </div>
+
+          <div id="panel-titoli" class="showcase-panel" role="tabpanel" aria-labelledby="panel-titoli" hidden>
+            <div class="gender-switch-bar">
+              <span class="gender-label">Seleziona genere personaggio:</span>
+              <div class="segmented" role="group" aria-label="Genere titoli personaggio">
+                <button id="gender-m" class="seg-btn is-active" type="button" aria-pressed="true" data-gender="m">Maschile</button>
+                <button id="gender-f" class="seg-btn" type="button" aria-pressed="false" data-gender="f">Femminile</button>
+              </div>
+            </div>
+
+            <div class="title-table">
+              <div class="title-row">
+                <span class="title-en">Slayer of Orcs</span>
+                <span class="title-arrow" aria-hidden="true">→</span>
+                <strong class="title-it js-gender-val" data-m="Sterminatore di Orchi" data-f="Sterminatrice di Orchi">Sterminatore di Orchi</strong>
+              </div>
+              <div class="title-row">
+                <span class="title-en">Stable-master</span>
+                <span class="title-arrow" aria-hidden="true">→</span>
+                <strong class="title-it js-gender-val" data-m="Stalliere" data-f="Stalliera">Stalliere</strong>
+              </div>
+              <div class="title-row">
+                <span class="title-en">Hero of the Shire</span>
+                <span class="title-arrow" aria-hidden="true">→</span>
+                <strong class="title-it js-gender-val" data-m="Eroe della Contea" data-f="Eroina della Contea">Eroe della Contea</strong>
+              </div>
+              <div class="title-row">
+                <span class="title-en">Champion of Gondor</span>
+                <span class="title-arrow" aria-hidden="true">→</span>
+                <strong class="title-it js-gender-val" data-m="Campione di Gondor" data-f="Campionessa di Gondor">Campione di Gondor</strong>
+              </div>
+            </div>
+          </div>
+
+          <div id="panel-comandi-ex" class="showcase-panel" role="tabpanel" aria-labelledby="panel-comandi-ex" hidden>
+            <div class="chat-mock">
+              <div class="chat-mock-head">
+                <span>Finestra Chat di Gioco (Esempio reale U50.2 r8)</span>
+                <span class="badge badge-ok">100% Compatibile con Macro &amp; Lua</span>
+              </div>
+              <div class="chat-lines">
+                <div class="chat-line"><span class="chat-cmd">/ui layout save mio_layout</span> <span class="chat-sys">→ Disposizione dell'interfaccia salvata come "mio_layout".</span></div>
+                <div class="chat-line"><span class="chat-cmd">/plugins manager</span> <span class="chat-sys">→ Apre la gestione dei plugin Lua comunitari.</span></div>
+                <div class="chat-line"><span class="chat-cmd">/stuck</span> <span class="chat-sys">→ Ritorno al punto di riunione sicuro avviato (15s).</span></div>
+                <div class="chat-line"><span class="chat-cmd">/bow</span> <span class="chat-sys">→ Fai un inchino rispettoso davanti a Elrond.</span></div>
+              </div>
+            </div>
+            <p class="tooltip-note" style="margin-top:0.85rem;">
+              Tutti i comandi <span class="mono">/</span> e i 268 <span class="mono">/emote</span> restano in inglese grazie alla guardia automatica in compilazione: ogni wiki, macro o plugin funziona al primo colpo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="moduli" class="section" aria-labelledby="moduli-title">
       <div class="container">
         <div class="section-head">
-          <h2 id="contenuti-title">Cosa rende speciale Vesper LotRO Patcher</h2>
-          <p class="section-sub">Progettato da zero per evitare i problemi dei vecchi patcher e proteggere i file originali del gioco.</p>
+          <p class="eyebrow">Architettura Vesper V2</p>
+          <h2 id="moduli-title">Moduli opzionali e motore nativo sicuro</h2>
+          <p class="section-sub">Progettato da zero in Rust e Python senza DLL legacy a 32-bit, con backup automatico e verifica crittografica di ogni file.</p>
         </div>
 
-        <div class="grid-2">
-          <article class="card">
-            <h3>Canone letterario Alliata / Principe</h3>
-            <p class="muted">
-              Toponimi, razze, classi e titoli seguono la traduzione classica italiana (<em>Gran Burrone</em>, <em>Contea</em>, <em>Ramingo</em>, <em>Custode</em>, <em>Orco</em>, <em>Mezzorco</em>) con oltre 1.550 titoli dinamici Maschile/Femminile e concordanza di genere nei dialoghi.
-            </p>
+        <div class="bento-grid">
+          <article class="bento-main">
+            <div class="bento-top">
+              <span class="badge badge-ok">100% Completo · Base Obbligatoria</span>
+              <h3>Testi di gioco &amp; Motore Nativo</h3>
+              <p>
+                Oltre <strong>717.144 stringhe tradotte</strong> su tutto il gioco: trama epica, missioni secondarie, gesta, oggetti, abilità, tratti e interfaccia. Prima di scrivere anche un solo byte sul client, il Patcher crea un'istantanea compressa dell'originale <span class="mono">client_local_English.dat</span> e verifica ogni pacchetto con controllo <strong>SHA-256</strong>.
+              </p>
+            </div>
+
+            <div class="bento-meter">
+              <div class="meter-label">
+                <span>Copertura database testi <span class="mono">U50.2_r8</span></span>
+                <strong>717.144 testi · 0 errori</strong>
+              </div>
+              <div class="progress-track"><div class="progress-fill is-ok" style="width:100%"></div></div>
+            </div>
+
+            <ul class="bento-highlights">
+              <li><strong>Aggiornamenti delta rapidi:</strong> le future revisioni scaricano ed applicano solo i blocchi cambiati in pochi secondi.</li>
+              <li><strong>Zero sovrascritture silenziose:</strong> verifica zero-overlap sui subfile prima dello swap atomico.</li>
+              <li><strong>Rilevamento automatico:</strong> compatibile con installazione Steam e launcher Standing Stone Games.</li>
+            </ul>
           </article>
 
-          <article class="card">
-            <h3>Motore nativo sicuro e aggiornamenti rapidi</h3>
-            <p class="muted">
-              Salva un'istantanea compressa del file inglese originale prima di applicare la traduzione e usa delta incrementali per applicare i futuri aggiornamenti in pochi secondi, con controllo SHA-256 integrato.
-            </p>
+          <div class="bento-stack">
+            <article class="bento-item">
+              <div class="bento-item-head">
+                <h3>Schermate di caricamento</h3>
+                <span class="badge badge-ok">11 / 11 · 100%</span>
+              </div>
+              <p>Tutte le schermate di avvio e transizione tradotte in alta qualità con protezione <span class="mono">Read-Only</span> per impedire il ripristino involontario dal launcher.</p>
+              <div class="progress-track"><div class="progress-fill is-ok" style="width:100%"></div></div>
+            </article>
+
+            <article class="bento-item">
+              <div class="bento-item-head">
+                <h3>Mappe regionali in italiano</h3>
+                <span class="badge badge-gold">36 / 218 · 16,5%</span>
+              </div>
+              <p>Iniezione diretta nell'indice B-Tree dei file immagine delle principali mappe di Eriador e delle zone iniziali, con riallineamento automatico degli hash.</p>
+              <div class="progress-track"><div class="progress-fill is-gold" style="width:16.5%"></div></div>
+            </article>
+
+            <article class="bento-item">
+              <div class="bento-item-head">
+                <h3>Video localizzati (<span class="mono">.bik</span>)</h3>
+                <span class="badge badge-gold">55 / 85 · 64,7%</span>
+              </div>
+              <p>Estrazione streaming verso <span class="mono">raw/it/</span> per filmati introduttivi di razze, classi e storia, lasciando intatta la cartella <span class="mono">raw/en/</span> originale per Steam.</p>
+              <div class="progress-track"><div class="progress-fill is-gold" style="width:64.7%"></div></div>
+            </article>
+          </div>
+        </div>
+
+        <aside class="freemont-plaque" role="note" aria-label="Ringraziamento a Freemont">
+          <div class="plaque-accent" aria-hidden="true"></div>
+          <div>
+            <strong>Un ringraziamento speciale a Freemont:</strong> gran parte del lavoro sui testi di gioco integra oltre <strong>380.000 traduzioni</strong> condivise da Freemont con la community italiana di LOTRO, unite e armonizzate con le nuove espansioni e revisioni.
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="comandi" class="section commands-section" aria-labelledby="comandi-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Sempre Compatibili</p>
+          <h2 id="comandi-title">Guida rapida ai Comandi Chat <span class="mono">/</span></h2>
+          <p class="section-sub">In gioco i comandi <span class="mono">/</span> si digitano <strong>in inglese</strong> così funzionano con tutte le macro, guide online e plugin Lua. Cerca qui sotto (o direttamente nella scheda Giocatore del Patcher) a cosa serve ogni comando.</p>
+        </div>
+
+        <div class="cmd-toolbar">
+          <div class="cmd-search-wrap">
+            <svg class="search-ico" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input id="cmd-search" class="cmd-input" type="search" placeholder="Cerca comando o parola (es. layout, stuck, plugin, kinship)..." aria-label="Cerca comando chat" autocomplete="off" />
+          </div>
+
+          <div class="cmd-filters" role="group" aria-label="Filtra per categoria comando">
+            <button class="filter-pill is-active" type="button" data-filter="all" aria-pressed="true">Tutti (26)</button>
+            <button class="filter-pill" type="button" data-filter="interfaccia" aria-pressed="false">Interfaccia &amp; Plugin (7)</button>
+            <button class="filter-pill" type="button" data-filter="gruppi" aria-pressed="false">Gruppi &amp; RP (10)</button>
+            <button class="filter-pill" type="button" data-filter="utilita" aria-pressed="false">Utilità &amp; Emote (9)</button>
+          </div>
+
+          <div id="cmd-count" class="cmd-count" aria-live="polite">26 comandi visualizzati</div>
+        </div>
+
+        <div id="cmd-list" class="cmd-list">
+          <article class="cmd-row" data-cat="interfaccia" data-search="/ui layout save &lt;nome&gt; salva la posizione attuale di barre, finestre e chat in un profilo. /ui layout load /ui layout save mio_layout interfaccia plugin">
+            <div class="cmd-main">
+              <div class="cmd-head-line">
+                <code class="cmd-code">/ui layout save &lt;nome&gt;</code>
+                <span class="cmd-cat-tag">Interfaccia e Plugin</span>
+              </div>
+              <p class="cmd-desc">Salva la posizione attuale di barre, finestre e chat in un profilo. <span class="cmd-ex mono">es. /ui layout save mio_layout</span></p>
+            </div>
+            <button class="btn-copy js-copy-cmd" type="button" data-copy="/ui layout save mio_layout" aria-label="Copia /ui layout save mio_layout">Copia</button>
           </article>
 
-          <article class="card">
-            <h3>Comandi chat <span class="mono">/</span> ed emote 100% compatibili</h3>
-            <p class="muted">
-              Tutti i comandi chat (<span class="mono">/ui layout save</span>, <span class="mono">/plugins manager</span>, <span class="mono">/stuck</span>, <span class="mono">/who</span>) e tutti i 268 <span class="mono">/emote</span> restano in inglese così macro, plugin Lua e guide online funzionano sempre. Nel Patcher trovi anche una guida ricercabile in italiano.
-            </p>
+          <article class="cmd-row" data-cat="interfaccia" data-search="/ui layout load &lt;nome&gt; ricarica un profilo di interfaccia salvato in precedenza. /ui layout load mio_layout interfaccia plugin">
+            <div class="cmd-main">
+              <div class="cmd-head-line">
+                <code class="cmd-code">/ui layout load &lt;nome&gt;</code>
+                <span class="cmd-cat-tag">Interfaccia e Plugin</span>
+              </div>
+              <p class="cmd-desc">Ricarica un profilo di interfaccia salvato in precedenza. <span class="cmd-ex mono">es. /ui layout load mio_layout</span></p>
+            </div>
+            <button class="btn-copy js-copy-cmd" type="button" data-copy="/ui layout load mio_layout" aria-label="Copia /ui layout load mio_layout">Copia</button>
           </article>
 
-          <article class="card">
-            <h3>Schermate, mappe e video opzionali in 1 clic</h3>
-            <p class="muted">
-              Nella scheda Giocatore puoi scegliere liberamente se installare solo i testi o attivare anche le 11 schermate di caricamento, le 36 mappe tradotte e i 55 filmati in italiano, senza conflitti con Steam o il launcher.
-            </p>
+          <article class="cmd-row" data-cat="interfaccia" data-search="/plugins manager apre la finestra di gestione dei plugin lua installati. interfaccia plugin">
+            <div class="cmd-main">
+              <div class="cmd-head-line">
+                <code class="cmd-code">/plugins manager</code>
+                <span class="cmd-cat-tag">Interfaccia e Plugin</span>
+              </div>
+              <p class="cmd-desc">Apre la finestra di gestione dei plugin Lua installati.</p>
+            </div>
+            <button class="btn-copy js-copy-cmd" type="button" data-copy="/plugins manager" aria-label="Copia /plugins manager">Copia</button>
+          </article>
+
+          <article class="cmd-row" data-cat="interfaccia" data-search="/plugins load &lt;nome&gt; carica e avvia subito un plugin lua specifico. interfaccia plugin">
+            <div class="cmd-main">
+              <div class="cmd-head-line">
+                <code class="cmd-code">/plugins load &lt;nome&gt;</code>
+                <span class="cmd-cat-tag">Interfaccia e Plugin</span>
+              </div>
+              <p class="cmd-desc">Carica e avvia subito un plugin Lua specifico.</p>
+            </div>
+            <button class="btn-copy js-copy-cmd" type="button" data-copy="/plugins load " aria-label="Copia /plugins load ">Copia</button>
+          </article>
+
+          <article class="cmd-row" data-cat="interfaccia" data-search="/plugins unload &lt;nome&gt; disattiva e scarica un plugin lua attualmente attivo. interfaccia plugin">
+            <div class="cmd-main">
+              <div class="cmd-head-line">
+                <code class="cmd-code">/plugins unload &lt;nome&gt;</code>
+                <span class="cmd-cat-tag">Interfaccia e Plugin</span>
+              </div>
+              <p class="cmd-desc">Disattiva e scarica un plugin Lua attualmente attivo.</p>
+            </div>
+            <button class="btn-copy js-copy-cmd" type="button" data-copy="/plugins unload " aria-label="Copia /plugins unload ">Copia</button>
+          </article>
+
+          <article class="cmd-row" data-cat="interfaccia" data-search="/plugins reload ricarica l'elenco e lo stato dei plugin. interfaccia plugin">
+            <div class="cmd-main">
+              <div class="cmd-head-line">
+                <code class="cmd-code">/plugins reload</code>
+                <span class="cmd-cat-tag">Interfaccia e Plugin</span>
+              </div>
+              <p class="cmd-desc">Ricarica l'elenco e lo stato dei plugin.</p>
+            </div>
+            <button class="btn-copy js-copy-cmd" type="button" data-copy="/plugins reload" aria-label="Copia /plugins reload">Copia</button>
+          </article>
+
+          <article class="cmd-row" data-cat="interfaccia" data-search="/resetui riporta finestre e barre dell'interfaccia alle posizioni predefinite. interfaccia plugin">
+            <div class="cmd-main">
+              <div class="cmd-head-line">
+                <code class="cmd-code">/resetui</code>
+                <span class="cmd-cat-tag">Interfaccia e Plugin</span>
+              </div>
+              <p class="cmd-desc">Riporta finestre e barre dell'interfaccia alle posizioni predefinite.</p>
+            </div>
+            <button class="btn-copy js-copy-cmd" type="button" data-copy="/resetui" aria-label="Copia /resetui">Copia</button>
+          </article>
+
+          <article class="cmd-row" data-cat="gruppi" data-search="/who apre o interroga la ricerca dei giocatori online sul server. gruppi confraternita gioco di ruolo">
+            <div class="cmd-main">
+              <div class="cmd-head-line">
+                <code class="cmd-code">/who</code>
+                <span class="cmd-cat-tag">Gruppi, Confraternita &amp; RP</span>
+              </div>
+              <p class="cmd-desc">Apre o interroga la ricerca dei giocatori online sul server.</p>
+            </div>
+            <button class="btn-copy js-copy-cmd" type="button" data-copy="/who" aria-label="Copia /who">Copia</button>
+          </article>
+
+          <article class="cmd-row" data-cat="gruppi" data-search="/lff &lt;messaggio&gt; scrive nel canale globale di ricerca gruppo looking for fellowship. gruppi confraternita">
+            <div class="cmd-main">
+              <div class="cmd-head-line">
+                <code class="cmd-code">/lff &lt;messaggio&gt;</code>
+                <span class="cmd-cat-tag">Gruppi, Confraternita &amp; RP</span>
+              </div>
+              <p class="cmd-desc">Scrive nel canale globale di ricerca gruppo (Looking For Fellowship).</p>
+            </div>
+            <button class="btn-copy js-copy-cmd" type="button" data-copy="/lff " aria-label="Copia /lff ">Copia</button>
+          </article>
+
+          <article class="cmd-row" data-cat="gruppi" data-search="/f &lt;messaggio&gt; invia un messaggio alla tua compagnia fellowship. gruppi">
+            <div class="cmd-main">
+              <div class="cmd-head-line">
+                <code class="cmd-code">/f &lt;messaggio&gt;</code>
+                <span class="cmd-cat-tag">Gruppi, Confraternita &amp; RP</span>
+              </div>
+              <p class="cmd-desc">Invia un messaggio alla tua Compagnia (Fellowship).</p>
+            </div>
+            <button class="btn-copy js-copy-cmd" type="button" data-copy="/f " aria-label="Copia /f ">Copia</button>
+          </article>
+
+          <article class="cmd-row" data-cat="gruppi" data-search="/ra &lt;messaggio&gt; invia un messaggio alla tua incursione raid. gruppi">
+            <div class="cmd-main">
+              <div class="cmd-head-line">
+                <code class="cmd-code">/ra &lt;messaggio&gt;</code>
+                <span class="cmd-cat-tag">Gruppi, Confraternita &amp; RP</span>
+              </div>
+              <p class="cmd-desc">Invia un messaggio alla tua Incursione (Raid).</p>
+            </div>
+            <button class="btn-copy js-copy-cmd" type="button" data-copy="/ra " aria-label="Copia /ra ">Copia</button>
+          </article>
+
+          <article class="cmd-row" data-cat="gruppi" data-search="/k &lt;messaggio&gt; invia un messaggio nella chat della confraternita kinship. gruppi">
+            <div class="cmd-main">
+              <div class="cmd-head-line">
+                <code class="cmd-code">/k &lt;messaggio&gt;</code>
+                <span class="cmd-cat-tag">Gruppi, Confraternita &amp; RP</span>
+              </div>
+              <p class="cmd-desc">Invia un messaggio nella chat della Confraternita (Kinship).</p>
+            </div>
+            <button class="btn-copy js-copy-cmd" type="button" data-copy="/k " aria-label="Copia /k ">Copia</button>
+          </article>
+
+          <article class="cmd-row" data-cat="gruppi" data-search="/kinship motd &lt;testo&gt; imposta il messaggio del giorno della confraternita per ufficiali capi. gruppi">
+            <div class="cmd-main">
+              <div class="cmd-head-line">
+                <code class="cmd-code">/kinship motd &lt;testo&gt;</code>
+                <span class="cmd-cat-tag">Gruppi, Confraternita &amp; RP</span>
+              </div>
+              <p class="cmd-desc">Imposta il messaggio del giorno della Confraternita (per ufficiali/capi).</p>
+            </div>
+            <button class="btn-copy js-copy-cmd" type="button" data-copy="/kinship motd " aria-label="Copia /kinship motd ">Copia</button>
+          </article>
+
+          <article class="cmd-row" data-cat="gruppi" data-search="/invite &lt;nome&gt; invita il giocatore indicato nella tua compagnia. gruppi">
+            <div class="cmd-main">
+              <div class="cmd-head-line">
+                <code class="cmd-code">/invite &lt;nome&gt;</code>
+                <span class="cmd-cat-tag">Gruppi, Confraternita &amp; RP</span>
+              </div>
+              <p class="cmd-desc">Invita il giocatore indicato nella tua Compagnia.</p>
+            </div>
+            <button class="btn-copy js-copy-cmd" type="button" data-copy="/invite " aria-label="Copia /invite ">Copia</button>
+          </article>
+
+          <article class="cmd-row" data-cat="gruppi" data-search="/follow fa seguire automaticamente il bersaglio selezionato. gruppi">
+            <div class="cmd-main">
+              <div class="cmd-head-line">
+                <code class="cmd-code">/follow</code>
+                <span class="cmd-cat-tag">Gruppi, Confraternita &amp; RP</span>
+              </div>
+              <p class="cmd-desc">Fa seguire automaticamente il bersaglio selezionato.</p>
+            </div>
+            <button class="btn-copy js-copy-cmd" type="button" data-copy="/follow" aria-label="Copia /follow">Copia</button>
+          </article>
+
+          <article class="cmd-row" data-cat="gruppi" data-search="/inspect apre la schermata di ispezione equipaggiamento e statistiche del bersaglio. gruppi">
+            <div class="cmd-main">
+              <div class="cmd-head-line">
+                <code class="cmd-code">/inspect</code>
+                <span class="cmd-cat-tag">Gruppi, Confraternita &amp; RP</span>
+              </div>
+              <p class="cmd-desc">Apre la schermata di ispezione equipaggiamento e statistiche del bersaglio.</p>
+            </div>
+            <button class="btn-copy js-copy-cmd" type="button" data-copy="/inspect" aria-label="Copia /inspect">Copia</button>
+          </article>
+
+          <article class="cmd-row" data-cat="gruppi" data-search="/rp on | off attiva o disattiva lo stato gioco di ruolo sul nome del personaggio. gruppi">
+            <div class="cmd-main">
+              <div class="cmd-head-line">
+                <code class="cmd-code">/rp on | off</code>
+                <span class="cmd-cat-tag">Gruppi, Confraternita &amp; RP</span>
+              </div>
+              <p class="cmd-desc">Attiva o disattiva lo stato Gioco di Ruolo sul nome del personaggio.</p>
+            </div>
+            <button class="btn-copy js-copy-cmd" type="button" data-copy="/rp on" aria-label="Copia /rp on">Copia</button>
+          </article>
+
+          <article class="cmd-row" data-cat="utilita" data-search="/stuck teletrasporta il personaggio al punto sicuro più vicino se incastrato cooldown. utilità posizione">
+            <div class="cmd-main">
+              <div class="cmd-head-line">
+                <code class="cmd-code">/stuck</code>
+                <span class="cmd-cat-tag">Utilità, Posizione &amp; Emote</span>
+              </div>
+              <p class="cmd-desc">Teletrasporta il personaggio al punto sicuro più vicino se incastrato (cooldown).</p>
+            </div>
+            <button class="btn-copy js-copy-cmd" type="button" data-copy="/stuck" aria-label="Copia /stuck">Copia</button>
+          </article>
+
+          <article class="cmd-row" data-cat="utilita" data-search="/loc stampa in chat le coordinate esatte della tua posizione attuale. utilità">
+            <div class="cmd-main">
+              <div class="cmd-head-line">
+                <code class="cmd-code">/loc</code>
+                <span class="cmd-cat-tag">Utilità, Posizione &amp; Emote</span>
+              </div>
+              <p class="cmd-desc">Stampa in chat le coordinate esatte della tua posizione attuale.</p>
+            </div>
+            <button class="btn-copy js-copy-cmd" type="button" data-copy="/loc" aria-label="Copia /loc">Copia</button>
+          </article>
+
+          <article class="cmd-row" data-cat="utilita" data-search="/played mostra il tempo di gioco totale accumulato dal personaggio. utilità">
+            <div class="cmd-main">
+              <div class="cmd-head-line">
+                <code class="cmd-code">/played</code>
+                <span class="cmd-cat-tag">Utilità, Posizione &amp; Emote</span>
+              </div>
+              <p class="cmd-desc">Mostra il tempo di gioco totale accumulato dal personaggio.</p>
+            </div>
+            <button class="btn-copy js-copy-cmd" type="button" data-copy="/played" aria-label="Copia /played">Copia</button>
+          </article>
+
+          <article class="cmd-row" data-cat="utilita" data-search="/reclaim ripristina oggetti bonus o edizioni speciali di account collegati al personaggio. utilità">
+            <div class="cmd-main">
+              <div class="cmd-head-line">
+                <code class="cmd-code">/reclaim</code>
+                <span class="cmd-cat-tag">Utilità, Posizione &amp; Emote</span>
+              </div>
+              <p class="cmd-desc">Ripristina oggetti bonus o edizioni speciali di account collegati al personaggio.</p>
+            </div>
+            <button class="btn-copy js-copy-cmd" type="button" data-copy="/reclaim" aria-label="Copia /reclaim">Copia</button>
+          </article>
+
+          <article class="cmd-row" data-cat="utilita" data-search="/pet release | stay | attack comanda il famiglio compagno evocato congeda resta fermo attacca. utilità">
+            <div class="cmd-main">
+              <div class="cmd-head-line">
+                <code class="cmd-code">/pet release | stay | attack</code>
+                <span class="cmd-cat-tag">Utilità, Posizione &amp; Emote</span>
+              </div>
+              <p class="cmd-desc">Comanda il famiglio/compagno evocato (es. congeda, resta fermo, attacca).</p>
+            </div>
+            <button class="btn-copy js-copy-cmd" type="button" data-copy="/pet release" aria-label="Copia /pet release">Copia</button>
+          </article>
+
+          <article class="cmd-row" data-cat="utilita" data-search="/afk [messaggio] imposta o toglie lo stato assente afk con eventuale risposta automatica. utilità">
+            <div class="cmd-main">
+              <div class="cmd-head-line">
+                <code class="cmd-code">/afk [messaggio]</code>
+                <span class="cmd-cat-tag">Utilità, Posizione &amp; Emote</span>
+              </div>
+              <p class="cmd-desc">Imposta o toglie lo stato Assente (AFK) con eventuale risposta automatica.</p>
+            </div>
+            <button class="btn-copy js-copy-cmd" type="button" data-copy="/afk " aria-label="Copia /afk ">Copia</button>
+          </article>
+
+          <article class="cmd-row" data-cat="utilita" data-search="/filter list mostra i filtri attivi su bottino o missioni. utilità">
+            <div class="cmd-main">
+              <div class="cmd-head-line">
+                <code class="cmd-code">/filter list</code>
+                <span class="cmd-cat-tag">Utilità, Posizione &amp; Emote</span>
+              </div>
+              <p class="cmd-desc">Mostra i filtri attivi su bottino o missioni.</p>
+            </div>
+            <button class="btn-copy js-copy-cmd" type="button" data-copy="/filter list" aria-label="Copia /filter list">Copia</button>
+          </article>
+
+          <article class="cmd-row" data-cat="utilita" data-search="/alias list mostra le scorciatoie chat personalizzate configurate. utilità">
+            <div class="cmd-main">
+              <div class="cmd-head-line">
+                <code class="cmd-code">/alias list</code>
+                <span class="cmd-cat-tag">Utilità, Posizione &amp; Emote</span>
+              </div>
+              <p class="cmd-desc">Mostra le scorciatoie chat personalizzate configurate.</p>
+            </div>
+            <button class="btn-copy js-copy-cmd" type="button" data-copy="/alias list" aria-label="Copia /alias list">Copia</button>
+          </article>
+
+          <article class="cmd-row" data-cat="utilita" data-search="/bug apre la segnalazione bug verso standing stone games. utilità">
+            <div class="cmd-main">
+              <div class="cmd-head-line">
+                <code class="cmd-code">/bug</code>
+                <span class="cmd-cat-tag">Utilità, Posizione &amp; Emote</span>
+              </div>
+              <p class="cmd-desc">Apre la segnalazione bug verso Standing Stone Games.</p>
+            </div>
+            <button class="btn-copy js-copy-cmd" type="button" data-copy="/bug" aria-label="Copia /bug">Copia</button>
           </article>
         </div>
 
-        <div class="callout" role="note">
-          <strong>Un ringraziamento speciale a Freemont:</strong> gran parte del lavoro sui testi di gioco integra oltre <strong>380.000 traduzioni</strong> condivise da Freemont con la community italiana di LOTRO.
-        </div>
+        <p id="cmd-empty" class="cmd-empty" hidden>Nessun comando trovato per questa ricerca. Prova con parole chiave come <span class="mono">layout</span>, <span class="mono">plugin</span> o <span class="mono">stuck</span>.</p>
       </div>
     </section>
 
     <section id="installazione" class="section" aria-labelledby="installazione-title">
       <div class="container">
         <div class="section-head">
+          <p class="eyebrow">Pronto in 2 Minuti</p>
           <h2 id="installazione-title">Come installare la traduzione in 4 passi</h2>
-          <p class="section-sub">L'intera procedura richiede meno di due minuti su Windows 10 / Windows 11 (64-bit).</p>
+          <p class="section-sub">Compatibile con Windows 10 e Windows 11 (64-bit), sia su Steam che su launcher ufficiale Standing Stone Games.</p>
         </div>
 
-        <div class="grid-4">
-          <article class="card step-card">
-            <span class="step-num" aria-hidden="true">1</span>
+        <ol class="timeline">
+          <li class="timeline-step">
+            <span class="step-medallion" aria-hidden="true">01</span>
             <h3>Scarica l'installer</h3>
-            <p class="muted">Scarica <span class="mono">Vesper.LotRO.Patcher_1.6.3_x64-setup.exe</span> da questa pagina o da GitHub Releases.</p>
-          </article>
+            <p>Scarica <span class="mono file-token">Vesper.LotRO.Patcher_1.6.3_x64-setup.exe</span> (oppure il pacchetto <span class="mono">.msi</span> dalla pagina Release).</p>
+          </li>
 
-          <article class="card step-card">
-            <span class="step-num" aria-hidden="true">2</span>
+          <li class="timeline-step">
+            <span class="step-medallion" aria-hidden="true">02</span>
             <h3>Avvia su Windows</h3>
-            <p class="muted">Se compare l'avviso blu Windows SmartScreen, clicca <strong>Ulteriori informazioni → Esegui comunque</strong>.</p>
-          </article>
+            <p>Se compare la finestra blu SmartScreen, clicca <strong>Ulteriori informazioni → Esegui comunque</strong>.</p>
+          </li>
 
-          <article class="card step-card">
-            <span class="step-num" aria-hidden="true">3</span>
+          <li class="timeline-step">
+            <span class="step-medallion" aria-hidden="true">03</span>
             <h3>Chiudi LOTRO</h3>
-            <p class="muted">Chiudi completamente il gioco e il launcher ufficiale (l'app trova la cartella di LOTRO in automatico).</p>
-          </article>
+            <p>Chiudi completamente il gioco e il launcher ufficiale (il Patcher rileva da solo la cartella di installazione).</p>
+          </li>
 
-          <article class="card step-card">
-            <span class="step-num" aria-hidden="true">4</span>
+          <li class="timeline-step">
+            <span class="step-medallion" aria-hidden="true">04</span>
             <h3>Installa in 1 clic</h3>
-            <p class="muted">Seleziona eventuali contenuti extra (schermate, mappe, video) e clicca <strong>Installa Traduzione Italiana</strong>.</p>
-          </article>
+            <p>Scegli eventuali moduli extra (schermate, mappe, video) e clicca <strong>Installa Traduzione Italiana</strong>.</p>
+          </li>
+        </ol>
+
+        <div class="safety-duo">
+          <div class="safety-box">
+            <h3>Avviso SmartScreen &amp; Verifica SHA-256</h3>
+            <p>
+              Gli eseguibili fan-made senza certificato commerciale a pagamento attivano normalmente l'avviso Windows SmartScreen al primo avvio. Ogni release pubblica su GitHub allega il file <span class="mono">SHA256SUMS-installers.txt</span> per verificare in autonomia l'impronta esatta del file scaricato.
+            </p>
+          </div>
+          <div class="safety-box safety-box-ok">
+            <h3>Ripristino in inglese in 1 clic</h3>
+            <p>
+              Vuoi tornare subito al client originale inglese o preparare un aggiornamento maggiore? Nella scheda <strong>Giocatore</strong> clicca <strong>Ripristina file inglesi originali</strong>: il backup locale ripristina testi, schermate, mappe e video in pochi secondi.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -291,11 +909,12 @@
     <section id="faq" class="section" aria-labelledby="faq-title">
       <div class="container">
         <div class="section-head">
+          <p class="eyebrow">Chiarimenti Utili</p>
           <h2 id="faq-title">Domande frequenti (FAQ)</h2>
         </div>
 
         <div class="faq-list">
-          <details class="faq-item">
+          <details class="faq-item" open>
             <summary>Funziona sia con il launcher ufficiale sia con Steam?</summary>
             <div class="faq-answer">
               <p>Sì. Vesper LotRO Patcher rileva automaticamente la cartella di The Lord of the Rings Online (sia installazione standalone Standing Stone Games sia Steam) e installa i file nella posizione corretta senza modificare il client originale irreversibilmente.</p>
@@ -324,7 +943,7 @@
           </details>
 
           <details class="faq-item">
-            <summary>I comandi chat <span class="mono">/</span> e gli emote restano in inglese?</summary>
+            <summary><span class="faq-q">I comandi chat <span class="mono">/</span> e gli emote restano in inglese?</span></summary>
             <div class="faq-answer">
               <p>Sì. Dalla revisione U50.2 r8 tutti i comandi chat <span class="mono">/</span> (<span class="mono">/ui layout save</span>, <span class="mono">/plugins manager</span>, <span class="mono">/stuck</span>, <span class="mono">/who</span>, <span class="mono">/lff</span>...) e tutti i 268 comandi <span class="mono">/emote</span> (<span class="mono">/bow</span>, <span class="mono">/dance</span>, <span class="mono">/cheer</span>...) sono 100% in inglese così macro, plugin Lua e guide online funzionano sempre. Nel Patcher c'è anche una guida ricercabile che spiega in italiano cosa fa ogni comando.</p>
             </div>
@@ -342,14 +961,18 @@
 
     <section class="section" aria-label="Community e supporto">
       <div class="container">
-        <div class="card community-card">
-          <div>
-            <h2>Segnalazioni, giocatori italiani e supporto</h2>
-            <p class="muted">Hai trovato un testo tagliato o un refuso in gioco? Scrivici su Discord o apri una segnalazione su GitHub Issues.</p>
+        <div class="community-banner">
+          <div class="community-intro">
+            <img class="mascot-img-lg" src="./assets/vesper-mascot.png" alt="Mascotte Vesper LotRO Patcher" width="64" height="64" loading="lazy" />
+            <div>
+              <h2>Segnalazioni, giocatori italiani e supporto</h2>
+              <p>Hai trovato un testo troncato o un refuso in gioco? Scrivici su Discord oppure apri una segnalazione su GitHub Issues.</p>
+            </div>
           </div>
-          <div class="community-links">
+
+          <div class="community-ctas">
             <a class="btn btn-discord" href="https://discord.gg/KpAYHHsrzV" target="_blank" rel="noopener noreferrer">Discord LOTRO Italia</a>
-            <a class="btn" href="https://github.com/dylantorresin/vesper-lotro-patcher/issues" target="_blank" rel="noopener noreferrer">Segnala un refuso</a>
+            <a class="btn btn-glass" href="https://github.com/dylantorresin/vesper-lotro-patcher/issues" target="_blank" rel="noopener noreferrer">Segnala un refuso</a>
             <a class="btn btn-paypal" href="https://paypal.me/DylanTorresin" target="_blank" rel="noopener noreferrer">Supporta su PayPal</a>
           </div>
         </div>
@@ -359,7 +982,7 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p class="footer-copy">Progetto fan-made gratuito e non affiliato a Standing Stone Games / Middle-earth Enterprises.</p>
+      <p class="footer-copy">LOTRO Italian · Progetto fan-made gratuito e non affiliato a Standing Stone Games / Middle-earth Enterprises.</p>
       <div class="footer-links">
         <a href="https://github.com/dylantorresin/vesper-lotro-patcher/releases" target="_blank" rel="noopener noreferrer">Releases</a>
         <a href="https://github.com/dylantorresin/vesper-lotro-patcher/blob/main/CHANGELOG-TRADUZIONE.md" target="_blank" rel="noopener noreferrer">Changelog Traduzione</a>
@@ -367,36 +990,5 @@
       </div>
     </div>
   </footer>
-
-  <script>
-    (function () {
-      try {
-        fetch("https://api.github.com/repos/dylantorresin/vesper-lotro-patcher/releases/latest", {
-          headers: { Accept: "application/vnd.github+json" }
-        })
-          .then(function (res) {
-            return res.ok ? res.json() : null;
-          })
-          .then(function (rel) {
-            if (!rel || !Array.isArray(rel.assets)) return;
-            var exe = rel.assets.find(function (a) {
-              return a && typeof a.name === "string" && a.name.toLowerCase().endsWith(".exe") && a.browser_download_url;
-            });
-            if (exe) {
-              var primary = document.getElementById("primary-download-btn");
-              var headerBtn = document.getElementById("header-download-btn");
-              if (primary) primary.href = exe.browser_download_url;
-              if (headerBtn) headerBtn.href = exe.browser_download_url;
-            }
-            var tag = typeof rel.tag_name === "string" ? rel.tag_name.trim() : "";
-            var badge = document.getElementById("live-version-badge");
-            if (tag && badge && /^v\d+\.\d+\.\d+$/.test(tag)) {
-              badge.textContent = "Patcher " + tag + " · Testi U50.2 r8 · Windows x64";
-            }
-          })
-          .catch(function () {});
-      } catch (e) {}
-    })();
-  </script>
 </body>
 </html>

@@ -9,7 +9,11 @@ Tutte le novità e le revisioni dei testi in gioco, dalla più recente alla prim
 
 ## Revisioni rilasciate
 
-### `U50.2 — Revisione r8` *(27 novembre 2026 — versione attuale)*
+### `U50.2 — Revisione r9` *(28 novembre 2026 — versione attuale)*
+- **Allineamento completo al canone storico Alliata/Principe (`2.285` testi bonificati, Glossario V3.1)**: corretti nomi di personaggi, luoghi e titoli in tutto il gioco (tra cui *Omorzo Cactaceo*, *Baccador*, *Ombromanto*, *Vermilinguo*, *Acquaneve*, *Chiane Ditteri*, *Colline Vento*, *Conte*, *La Pertica d'Oro*, *Bosco Cet*, *Chianarana*, *Crifosso*, *Tucboro*, *Quadrivio*, *Via Saccoforino*, *Il Pantano*, *Sinuosalice*, *Riorombante*, *Fontegrigio*, *Argentaroggia*, *Mirolago*, *Clivovalle*, *Conca del Fosso*, *Breccia di Rohan*, *Lago Lungo*, *Landa Inaridita*, *Fattore Maggot*, *Brandibuck*, *Serracinta*, *Nonno Gamgee*, *Ninfale*, *Duroste*, *Foglia di Pianlungo* / *Pianlungo*, *Ciuffofoglio*, *Scorzapelle*, *Mandimartello*, *Bestia Alata*, *Staddle*) preservando intatti i `Thane` di Rohan e le erbe botaniche (*farfaraccio*), con nuove guardie anti-regressione permanenti.
+- **18 miglioramenti all'interfaccia** dall'Hub Traduttori: rifinite voci di mappa e tracciatore missioni (*Clic Destro sulla Mappa per Ridurre lo Zoom*, *Mostra Missioni sulla Mappa*, *Opz. Tracciatore Missioni:*, *Obiettivo Miss.*, *Missioni Disponibili*), pannello sociale e istanze (*Online*, *Salva Incursione*, *Cronologia*, *Scegli un'istanza da avviare*) e artigianato/inventario/passatempi (*Prob. di Critico:*, *Il Succ. Critico Genera:*, *Più Slot*, *Già Appreso*, *Mostra Solo Equipaggiati*, *Ott. Punti e*).
+
+### `U50.2 — Revisione r8` *(27 novembre 2026)*
 - **Tutti i comandi chat `/` e gli emote ripristinati al 100% in inglese**: riportati in inglese sia i comandi di interfaccia/gestione (`/ui layout save`, `/ui layout load`, `/plugins manager`, `/resetui`, `/kinship promote/demote/motd`, `/rp`, `/stuck`, ecc. inclusi i relativi messaggi di aiuto) sia tutti i `268` nomi dei comandi `/emote` (`/bow`, `/dance`, `/cheer`, `/wave`, `/salute`, ecc.), così macro, plugin Lua e guide online funzionano sempre senza conflitti *(i messaggi di sistema e i testi narrativi restano in italiano)*.
 - **12 miglioramenti all'interfaccia** dall'Hub Traduttori: rifinite voci e abbreviazioni dei menu *Voce*, *Creazione*, *Opzioni di Combattimento*, ricerca giocatori (*Chi / Who*) e *Sintonizzazione* per renderle ancora più chiare e leggibili in gioco.
 
@@ -52,7 +56,7 @@ Tutte le novità e le revisioni dei testi in gioco, dalla più recente alla prim
 
 ---
 
-## In lavorazione per il prossimo aggiornamento (`U50.2 r9`)
+## In lavorazione per il prossimo aggiornamento (`U50.2 r10`)
 
 Raccolta continua delle segnalazioni in-game per il prossimo aggiornamento cumulativo dei testi.
 

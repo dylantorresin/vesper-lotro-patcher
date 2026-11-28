@@ -231,7 +231,7 @@
           var tag = typeof rel.tag_name === "string" ? rel.tag_name.trim() : "";
           var badge = document.getElementById("live-version-badge");
           if (tag && badge && /^v\d+\.\d+\.\d+$/.test(tag)) {
-            badge.textContent = "Patcher " + tag + " · Testi U50.2 r8 · Windows x64";
+            badge.textContent = "Patcher " + tag + " · Testi U50.2 r9 · Windows x64";
           }
         })
         .catch(function () {});

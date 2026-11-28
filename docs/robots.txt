@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dylantorresin.github.io/vesper-lotro-patcher/sitemap.xml
+Sitemap: https://lotroitalia.it/sitemap.xml

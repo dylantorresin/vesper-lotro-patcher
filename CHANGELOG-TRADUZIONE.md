@@ -19,7 +19,7 @@ Tutte le novità e le revisioni dei testi in gioco, dalla più recente alla prim
 
 ### `U50.2 — Revisione r7` *(26 novembre 2026)*
 - **Contenuti grafici e video opzionali (`assets-v1`) selezionabili da Vesper LotRO Patcher `v1.6.1`**:
-  - **11 schermate di caricamento in italiano (`100%`)**: tradotte tutte le schermate di caricamento e avvio del gioco, incluso l'invito al canale Discord **LotRO Italian**.
+  - **11 schermate di caricamento in italiano (`100%`)**: tradotte tutte le schermate di caricamento e avvio del gioco, incluso l'invito al canale Discord **LOTRO Italia**.
   - **36 mappe regionali in italiano (`16,5%`, `36/218`)**: mappe delle regioni tradotte pronte in 1 clic e sempre reversibili in inglese.
   - **55 filmati localizzati (`64,7%`, `55/85`)**: intro di gioco, filmati di tutte le classi/razze e cutscene della storia (pacchetto opzionale).
 - **Tutti i `717.468` testi di gioco in italiano invariati e verificati al `100%`** rispetto alla revisione `r6` (`823.339` righe complessive).
